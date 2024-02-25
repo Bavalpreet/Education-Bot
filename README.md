@@ -1,5 +1,10 @@
 # Edu-Bot
 
+An innovative chatbot called "Guftagu" for Educollab, an esteemed e-learning platform.
+
+Main objective behind curation of EduBot was to create a user-friendly interface that assists learners in their educational endeavors by providing a seamless experience in asking questions and accessing frequently asked information. By leveraging the power of natural language processing and AI, we aimed to enhance the overall learning experience and foster a collaborative environment within the platform.
+
+
 ## How to Get the Bot running by Using the Github Code
 Firstly clone the repo locally or Download the source code.
 
