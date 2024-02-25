@@ -1,0 +1,2707 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+# EDU COLLAB
+- intent: faq-edu/about-platform
+  examples: |
+    - what is edu-collab?
+    - please tell me something about the edu collab.
+    - can you provide me some info about edu collab?
+    - What exactly is edu collab platform used for?
+    - Could you tell me about edu collab?
+    - What is the purpose of edu collab?
+    - I want to know more about edu collab?
+    - i am new to edu collab and want to know about it
+    - I would like to know about edu collab
+    - give me some information about edu collab
+    - what basically is the edu collab platform?
+    - for what purpose is edu collab used?
+    - i don't know anything about edu collab could tell me something about it
+    - I'd like to know a little bit about edu collab could you please tell
+    - i am not familiar with edu collab, please tell me something regarding it
+    - i am curious to know about edu collab
+    - can i know about edu collab platform?
+    - define edu collab
+    - tell me something about edu-collab
+    - provide me with some information regarding edu collab
+    - what is the use of edu collab platform
+    - please tell me about edu collab
+    - tell me the purpose of edu collab
+    - i wanna know about edu collab
+    - for me edu collab is new could you please tell me someting about it
+    - i am interested to know more about edu collab
+    - help me with some information regarding edu collab
+    - basically what is edu collab platform
+    - tell me the use of educollab
+    - i am not aware about educollab could you please tell me something about it
+
+- intent: faq-edu/demo       # Date: 25 Nov 2021
+  examples: |
+    - is there any demo video available for edu-collab
+    - Maybe there is a  sample video of edu-collab available?
+    - it will be very helpful if there is any demo video for edu-collab
+    - can you provide a demo video for edu collab
+    - do you have any demo video for edu collab
+    - do any demo video for edu collab exists here?
+    - can i get any demo video for edu collab here
+    - i am not familier with edu collab, so i need a demo video
+    - i dont know to use edu collab, if you can help through a demo video
+    - it will be nice if you have demo video for edu collab
+    - i need a demo video for this platform
+    - i dont know to use this platform, can you provide any demo video
+    - kindly give me a demo video for edu collab platform
+    - I'm not sure how to utilise this platform; could you show me a demo video?
+    - Please provide me a video demo of the edu collab platform.
+    - Hey send me a video which can help to use edu collab platform.
+    - If there is a demo video for edu-collab, it would be really useful.
+    - Could you show me a demonstration video on how to use this platform?
+    - facilitate a video for edu collab
+    - Is there any way I can obtain a demo video for an edu collab here?
+
+# have to check if this intent is useful or not
+- intent: faq-edu/qualification
+  examples: |
+    - what should be my educational qualification to use edu-collab?
+    - How much qualification is required for using edu collab?
+    - What is the eligibility criteria for using edu collab?
+    - is there any qualification needed for edu collab?
+    - make me clear with qualifications requirements for edu collab
+    - can i know qualification level in order to use edu collab
+    - please let me know how much qualification is required for using edu collab?
+    - how much qualification is required to become eligible for edu collab?
+    - What type of qualification needed to access edu collab platform
+    - i have not done graduation yet and i am worried if can use edu collab or not?
+    - i want to know qualification level required to become edu collab member.
+    - tell me about the qualification requirements necessary to use this platform
+    - how much qualified should i be to become part of educollab
+    - what eligibility criteria is there to use this platform
+    - do we need to have any sort of qualification to use educollab
+    - do let me know if there is any qualification that i require
+    - tell me the level of qualification required to use educollab
+    - could you explain what qualification requirement do i need to have to use this platform
+    - In order to use edu-collab what qualification requirement do i need to have
+    - what shall be mine qualification so that i would be allowed to use edu-collab
+    - is graduation in any sort of degree required to use edu collab
+    - what shall be my qualification to be part of edu-collab platform
+
+- intent: faq-edu/age
+  examples: |
+    - is there any age limitation to use edu-collab?
+    - What is the age required for using edu collab
+    - i am adult, so can i access edu collab?
+    - how much age is required for using edu collab?
+    - What should be my age to use edu collab?
+    - How old must be a person in order to access edu collab?
+    - What is the minimum age requirement for edu collab access?
+    - how old I must be to start using edu collab?
+    - Does edu-collab have an age restriction?
+    - Tell me the legal age required to join edu collab.
+    - please inform me about age limitations for edu collab?
+    - does it require a specific age to use edu collab.
+    - can i know the age requirement for using edu collab
+    - can i join edu collab if I am below adult age
+    - could u tell me that what should be my age group to use this platform
+    - I just opened this webpage and want to know what age group should I belong to use it
+    - is there any restriction for age limit
+    - tell me the minimum age requirement for starting to use edu collab
+    - being an adult can i use this platform
+    - what minimum age i must have so that i would be allowed to use edu collab
+    - tell me the minimum age
+    - How old does a person have to be to use edu collab?
+    - What is the minimum age to join edu collab?
+    - How old do I have to be to use edu collab?
+    - Is there an age limit for edu-collab?
+    - Please tell me the legal age limit for joining edu collab.
+    - Could you please let me know whether there are any age restrictions for the edu collab?
+    - Is there a minimum age requirement to utilise edu collab?
+    - Can you tell me how old you have to be to use edu collab?
+    - Can I join educollab if I am under the age of 18?
+
+- intent: faq-edu/supported-devices
+  examples: |
+    - is there any mobile application for edu-collab?
+    - On what platforms, I can access edu collab?
+    - List down all the platforms where I can use edu collab
+    - Can i use edu collab on android/ios application?
+    - is there any app for edu collab on google play store?
+    - is edu collab accessible only through a web application?
+    - is edu collab supported on all platforms i.e android/ios/desktop?
+    - Does edu-collab have any mobile applications?
+    - please tell me about all possible platforms to access edu collab
+    - What type of device support does edu collab provide?
+    - is there any ios app that i can install for using educollab
+    - is educollab app available for ios devices
+    - is there any educollab app for iphone
+    - can i install edu-collab app on iphone
+    - does educollab have any app in apple app store
+    - Does edu-collab have a mobile application?
+    - Is edu collab available on any platforms?
+    - Make a list of all the platforms on which I can utilise edu-collab.
+    - Is it possible to utilise edu collab on an Android/iOS app?
+    - Is there a Google Play app for edu collab?
+    - Is edu collab only available as an online application?
+    - Is edu collab available on all platforms Android, iOS, and Desktop?
+    - Do you have any mobile apps for edu-collab?
+    - Please inform me of all platforms via which I may access edu collab. 
+    - What kind of device support does edu collab provide?
+    - Is there an educollab app for iOS that I can download?
+    - Is there an educollab app for iOS?
+    - Is an educollab app available for the iPhone?
+    - Is there an educollab app for the iPhone? 
+    - Is there an educollab app on the Apple App Store?
+
+- intent: faq-edu/credentials-expire
+  examples: |
+    - when do my login credentials expire once I leave sabudh?
+    - For how much time my edu collab credentials are kept?
+    - Would my edu collab account be removed after i leave the institute?
+    - Will my edu collab credentials expire after the internship is over?
+    - Can i use edu collab for lifetime?
+    - is my edu collab login account permanent or not?
+    - i want to know that for how much time, I can access edu collab?
+    - When will my edu collab account expire?
+    - What if i leave sabudh will i be restricted from using my edu collab access?
+    - Edu collab login credentials are permanent or not?
+    - I am not sure if my edu collab account is permanent or not?
+    - Let me know the expiration term of edu collab credentials
+    - Will I be restricted from using edu collab, once my internship is over?
+    - What is the time period for which edu collab is accessible?
+    - For how much time we can use edu collab?
+    - Will my edu collab account be removed after six months?
+    - How long do my login credentials last once I leave Sabudh?
+    - How long will my edu collab credentials be retained?
+    - When I leave the institute, will my edu collab account be deactivated?
+    - Will my edu collab credentials expire at the end of the internship?
+    - Is it possible to utilise edu collab indefinitely?
+    - Do I have a permanent edu collab login account?
+    - I'd want to know how long I'll be able to use edu collab?
+    - How long does my edu collab account last?
+    - Will I be able to use my edu collab access if I leave Sabudh?
+    - Are the login credentials for edu collab permanent?
+    - How can I know if my edu collab account is permanent?
+    - Please inform me of the edu collab credentials' expiration date.
+    - Will I be able to use edu collab once my internship is finished?
+    - Is edu collab available for a specific amount of time?
+
+- intent: faq-edu/my-content-section
+  examples: |
+    - how to use my content section on this platform?
+    - how can i use the my content tab shown on this web app
+    - i am not able to get how can i use my content section
+    - i have been looking on to my content page on edu collab but not able to use it can you tell me how i can operate it
+    - their is no instruction regarding how can i use my content page on edu collab please guide me how to use it
+    - could you please guide me on how to use my content page on edu collab
+    - i have been trying to see how can i use the my content section if you could help me i would really appriciate it
+    - please explain me how can i use this my content section on this portal
+    - i can't figure out how to use this my content section could you please tell me
+    - how to use my content section on this platform?
+    - what is my content section in this platfom?
+    - suggest me how to use my content tab under edu  collab?
+    - what is purpose of my content tab in edu collab website?
+    - i need info about my content section in edu collab platform
+    - where can i get my content in edu collab?
+    - what information does my content contains in this platform?
+    - why is there my content tab under menu
+    - what is the use of my content tab
+    - what's the use of my content section here?
+    - can you tell me about my content section on edu collab?
+    - i am confused with my content section on this platform
+    - i dont know what is my content section here.
+    - I'm not sure what area of this website is for my content
+    - What is the function of the my content tab on the edu collab website?
+    - tell me significance of my content tab of edu collab
+    - role of my content section in edu collab
+    - How do I utilise this platform's content section?
+    - How can I access the My Content option on this online app?
+    - I am unable to obtain How can I make the most of my content section?
+    - I've been trying to access my content page on edu collab but am unable to do so. Could you please explain how to do so?
+
+# PROFILE
+- intent: faq-profile/update-role
+  examples: |
+    - is it possible to update the role in my user profile
+    - how can i update my role in my user profile
+    - I wanted to know is it possible for me to change the role assigned to me by default
+    - I have a default role assigned to me in my user profile can i change it
+    - is there any way to change the role that's assigned by default to me
+    - there is a default role assigned to me in my profile can i change it
+    - can i change the role in my profile which is assigned by default
+    - please tell me the process to change my role in user profile
+    - what steps can be taken in order to change the user role in my profile
+    - i want to change my role in user profile how to do so
+    - can I update the role in my user profile?
+    - what can I do to update role in my user profile?
+    - ways to update role in my user profile on this portal
+    - tell me the method to update role in my user profile
+    - steps involved to update role in my user profile on educollab
+    - how to update the my role on this portal?
+    - Is there any way to update my role on educollab under my profile?
+    - who can update the role in user profile
+    - Can students update their role in user profile on educollab
+    - Is it allowed to change my user profile's role?
+    - How can I update my user profile's role?
+    - I'd want to know if I can modify the default role that has been given to me.
+    - In my user profile, I have a default role given to me can I modify it?
+    - Is there a method to modify the default role that has been assigned to me?
+    - In my profile, there is a default role given to me can I modify it
+    - Is it possible to modify the default role on my profile?
+    - Please explain how to modify my role on my user profile.
+    - What actions should I take to modify my user role in my profile?
+    - I'd like to modify my role on my user profile, but I'm not sure how to accomplish it.
+    - Is it possible to change my role on my user profile?
+
+- intent: faq-profile/update-profile
+  examples: |
+    - how can i update my user profile
+    - is it possible for me to change the user profile
+    - what steps can be taken to change the user profile
+    - what should be done in order to update my profile
+    - Could u tell me what steps can be taken to change the user profile
+    - please tell me how to update user profile
+    - i want to update my user profile how to do so
+    - could you please explain me how can i change the user profile
+    - how to update the user profile on edu collab?
+    - what can I do to update my user profile?
+    - what ways are available for updating my user profile
+    - which method can be used to update my user profile
+    - steps involve in updating user profile of mine
+    - Is it even possible to update my user profile?
+    - how to update my user profile?
+    - Is there any way to update user profile on edu collab?
+    - Can students update their user profile
+    - can we update our profile
+    - is it true that we can update our profiles
+    - tell me the procedures to update my profile
+    - How do I make changes to my user profile?
+    - Is it possible to modify my user profile?
+    - How may the user profile be changed?
+    - What steps should I take to update my profile?
+    - Could you please explain me how to update the user profile?
+    - Could you kindly explain me how to change my user profile?
+    - I'd want to edit my user profile, but I'm not sure how to accomplish so.
+    - Could you kindly show me how to modify my user profile?
+    - How do I change my edu collab user profile?
+    - How can I edit my user profile?
+
+- intent: faq-profile/update-email
+  examples: |
+    - can i change my email address
+    - i wanted to change my email address can i do that
+    - is there a way to change the email address under my user profile
+    - am i allowed to change the email address
+    - what steps can be taken in order to change the email address
+    - do i have the authority of changing my email address
+    - is it possible for me change the email address
+    - please tell me can i change my email address
+    - hey could you please tell me how can i update my email address
+    - are there any ways available to update email
+    - whom to contact if I want to update my email address
+    - Am I even eligible to update my email address by my own
+    - Is it possible to update my email address in user profile
+    - How can I update my email address
+    - Methods to update email address in user profile
+    - what procedure to follow for updating email address
+    - Ways by which I can update my email address
+    - What can I do to update my email address
+    - Can students update their email in user profile
+    - how can i change my email
+    - is there any method to change my mail address
+    - is edu-collab gives us permission to change mail
+    - what are the procedures to update my mail address
+    - tell me the procedures to change my mail id
+    - can i have power to change my mail id
+    - tell me can i change my mail address
+    -i would appreciate if you tell me how can i change my mail id
+    - plss tell me the way to change my email
+    - whom i reach out to change my mail
+    - i want to change my email id
+
+- intent: faq-profile/update-pass
+  examples: |
+    - is it possible to change password provided to me by default
+    - how steps can i take to change the password
+    - i was looking for a way to change password please tell me
+    - i have been looking for some way to change password please show me
+    - what are the steps that can be taken to change my password of edu collab
+    - on edu collab how to change my password
+    - am i allowed to change the password on edu collab
+    - please guide me in changing the password
+    - i want to change my password please tell me the steps needed to do so
+    - is it possible for me to change the password
+    - how can i change password
+    - is it possible to update password
+    - tell me the way to change my pass
+    - assist me to change my password
+    - please provide me the way to change my password on edu-collab
+    - can i change my default password
+    - can edu-collab gives us permission to change my pass
+    - how can i change my default pass
+    - is there any way to change my pass
+
+- intent: faq-profile/update-proficiency
+  examples: |
+    - on my profile can i change my proficiency from beginner to competent
+    - is there any way to change the default proficiency on my profile
+    - how can i change the proficiency level in my user profile
+    - i just noticied that there is some proficiency level assigned on my profile by default can i change it
+    - please tell me what can i do to change the proficiency level on my profile
+    - i want to change my default proficiency on user profile can i do it
+    - please tell me how to update the proficiency level
+    - is it possible to change my proficiency level
+    - i would appreciate if you tell me how can i change my proficiency level
+    - tell me the way to change proficiency level in my profile
+    - can edu-collab gives us permission to change proficiency level in my profile
+    - how to change proficiency level
+    - what are the procedure of changing proficiency level
+    - can you tell me how can i change my proficiency level on edu-collab
+    - Can I change my proficiency level on my profile from beginner to competent?
+    - Is there any way to change the default proficiency on my profile?
+    - How can I change the proficiency level in my user profile?
+    - I just noticed that there is a proficiency level assigned to my profile by default, can I change it?
+    - Please tell me how to change the proficiency level on my profile.
+
+- intent: faq-profile/update-username
+  examples: |
+    - can i change my username
+    - can i update my username
+    - is it possible for me to update my user name
+    - please tell me how to update the username
+    - i want to change my username please tell me how can i do so
+    - is changing the username possible
+    - am i allowed to update my username
+    - how can i update my username
+    - please explain me is it possible to change my username
+    - is there any way available to change my username
+    - how can i update my username
+    - how can i change my username
+    - i would appreciate if you tell me how can i change username
+    - i want to change my username
+    - is it feasible to change my username
+    - assist me to change username
+    - how to change username
+    - Is There Any Way To Change My Username?
+
+- intent: faq-profile/status-mean
+  examples: |
+    - please tell me what does the read, away, and online status mean
+    - can you explain what does different user statuses mean?
+    - tell me the meaning of different user status being shown here
+    - what does the read and online status mean
+    - i was wondering about the meanings of different user status could you please tell
+    - please tell me what meaning do the different user statuses mean
+    - what's the role of status
+    - what's the use of role in our profile
+    - i would appreciate if you tell me the meaning of different status in our profile
+    - what read, away, online means
+    - what these different status means
+    - why edu-collabput these different status in user profile
+    - Could you please clarify what the read, away, and online statuses mean?
+    - Could you kindly explain what the different user statuses mean?
+    - please explain me what the different user statuses mean
+    - what do the read and online statuses mean
+    - I was curious about the meanings of the different user statuses could you please tell
+    - please tell me what the different user statuses mean
+    - What is the purpose of status in our profile?
+    - Could you please explain the significance of different status in our profile?
+    - What does read, away, and online mean?
+    - Why does edu-collab include these distinct status in user profiles?
+
+- intent: faq-profile/status-change
+  examples: |
+    - can I change my user status from read to away?
+    - how to change my status from online to read
+    - i want to change my online status to away how can i do so
+    - is it possible to change the online status to read or away
+    - please tell me can i change my status from away to online
+    - is there any way to change my status from read to away
+    - how can i change my status from online to read
+    - assist me to change my status to read or away
+    - i would appreciate you tell me how can i  change my status to read from away
+    - is it possible to change status
+    - can edu-collab gives us permission to change status
+    - Can you help me change my status from online to read?
+    - I'd love it if you could tell me how I may alter my status to read from away
+    - Is it feasible to change status?
+    - Is it possible to alter my user status from read to away?
+    - How do I change my online status to read?
+    - How do I change my online status to away?
+    - Is it feasible for me to alter the online status to read or away?
+    - Could you kindly inform me whether I may alter my status from away to online?
+
+- intent: faq-profile/social-media
+  examples: |
+    - can i link my social media handles to edu collab
+    - how to link social accounts on edu collab
+    - can i link the social accounts on this platform
+    - on this platform where can i link social media
+    - on edu-collab tell me the way to link my social handles
+    - how am i supposed to link my social handles on this platform
+    - i would appreciate if you tell me the way to link my social handles on this platform
+    - it would helpful if you suggest me how to link accounts on this platform
+    - is it possible to link social media on edu-collab
+    - can you please tell me to link the social accounts on this platform
+    - is there any way to link my social accounts 
+    - how to link my social media account to this platform
+
+- intent: faq-login/credentials
+  examples: |
+    - from where can I get login credentials?
+    - how to get to login credentials for edu collab
+    - whom to approch in order to get the credentials for educollab
+    - i want to use edu collab from where can i get user credentials
+    - please tell me how to get the login credentials for edu collab
+    - how can i get login credentials for edu collab
+    - can you tell me from where can i get login credentials for educollab
+    - could you please tell me how can i get the login credentials
+    - how can i get login credentials
+    - who can give me the login credentials for edu-collab
+    - tell me where i can get edu-collab credentials
+    - tell me the way to get login credentials
+    - Where can I receive username and password?
+    - how to obtain educollab login credentials
+    - whom to contact in order to obtain educollab login credentials
+    - I'd want to utilise edu collab, but I'm not sure where to acquire usernames and passwords.
+    - please tell me how to obtain educollab login credentials
+    - how can I get educollab login credentials
+    - can you tell me where I can get educollab login credentials
+    - Could you tell me how I may obtain the login information?
+    - Where can I obtain login information?
+    - how to obtain login credentials for educollab
+    - who to contact in order to obtain educollab credentials
+    - I'd want to utilise edu collab where can I obtain login credentials?
+    - Please tell me how to obtain the login credentials for edu collab.
+    - How can I get login credentials for edu collab.
+    - Can you tell me where I can get login credentials for educollab.
+    - Could you kindly tell me how I may obtain the login information?
+
+- intent: faq-login/create
+  examples: |
+    - can we create user accounts on our own?
+    - am i allowed to create account on edu collab
+    - does edu collab allow everyone to create user account
+    - is edu collab open for all to create user accounts and use it
+    - please tell me can i create account on edu collab myself
+    - is it possible for a random person to create user account on edu collab
+    - are all people who visit edu collab allowed to create their own account
+    - is there any way to create our account
+    - is it feasible for me to create our own account
+    - help me to create my own account
+    - tell me the procedure to create a account for myself
+    - can edu-collab help us to create our own account
+    - can anyone create their account on edu-collab
+    - how to create account
+    - can my friends create their own account
+    - Is it possible for us to create user accounts on our own?
+    - Can I make an account on edu collab?
+    - Does edu collab enable anybody to establish a user account?
+    - Is edu collab available to everyone to create a user account and utilise it?
+    - Can I make an account on edu collab on my own?
+    - Is it feasible for a random individual to register an account on edu collab?
+    - Are all visitors to edu collab permitted to create an account?
+    - Is it possible for me to establish our own account
+    - Is there any method for us to create our own account?
+    - guide me through the process of creating my own account
+    - can edu-collab assist us in creating our own account
+    - can anybody establish an account on edu-collab
+
+- intent: faq-login/log-out
+  examples: |
+    - how do I log out from edu-collab?
+    - please tell me where is the log out button on this platform
+    - i want to log out but can't find the log out button please help me
+    - where can i find the log out button on this website
+    - i am not able to see the log out button please show me
+    - from where can i log out please tell me
+    - is there any log out button available i am not able to find it
+    - tell me the way to logout from edu-collab 
+    - is there any function on edu-collab for logout
+    - how to log out
+    - i can't find log out button
+    - help me to find he logout button
+    - assisst me to locate the log out button
+    - i would appreciate if you tell me from where can i logout
+    - how can i log out
+    - how can i locate the log out button
+    - What is the procedure for logging out to edu-collab?
+    - Could you kindly inform me where the log out button is on this platform?
+    - I'm trying to log out but can't seem to find it.
+    - Where can I locate the log out button on this website?
+    - I can't seem to find it could you kindly show me where it is?
+    - Could you please tell me where I may log out from?
+    - Is there any way to log out? I can't seem to locate one.
+    - Can you tell me how to log out of edu-collab?
+    - Is there a logout feature on edu-collab?
+    - How can I log out if there isn't a log out button?
+    - Please assist me in locating the logout button.
+    - Help me find the log out button  
+    - I'd appreciate it if you could tell me where I can log out from.
+
+# Mosaic
+- intent: faq-mosaic/mosaic-proj-knowledge
+  examples: |
+    - to join a project do I need to have a domain background in it
+    - what prior knowledge do I need for joining a project
+    - What prerequisites I must have before I join a project?
+    - Is it necessary for me to have a domain background in order to join a project?
+    - What should I know before I start with a project?
+    - Does every project require me to have prior knowledge of the topic?
+    - Is it necessary for me to have a prior understanding of the topic for every project?
+    - What do I need to know before I begin a project?
+    - Can I start working on a project without any prior knowledge
+    - Is it possible for me to begin working on a project with no prior experience?
+    - Can I begin with the project even though I have no previous experience?
+    - Is it mandatory to learn the basics before delving into a project
+    - What should I know before starting a project?
+    - Is it necessary to understand the fundamentals before starting a project?
+    - Do I need to have a domain background for joining a project?
+    - Do I need any prior experience to participate in a project?
+    - What are the requirements for joining a project?
+    - Is it required for me to have prior experience with domains in order to participate in a project?
+    - What should I know about a project before I begin it?
+    - Is it important for me to have prior understanding of the topic for every project?
+    - Is it considered necessary for me to have prior knowledge of the subject matter for each project?
+    - What should I know before starting a project?
+    - i dont know if I can begin working on a project with no previous knowledge or not?
+    - Will I be able to start working on a project with no prior experience?
+    - Can I start working on the project with my lack of experience?
+    - Is it necessary to master the fundamentals before embarking on a project?
+    - What should I be aware of before to beginning a project?
+    - Is it important to know the basics before beginning a project?
+    - What should I be aware of before beginning a project?
+    - please tell me do i need to have a domain background to join a project
+
+- intent: faq-mosaic/mosaic-proj-details
+  examples: |
+    - how do I see details about a project on mosaic
+    - Where can I find project details on edu collab
+    - On educollab, where can I locate project details?
+    - How can I get more information about a project on mosaic?
+    - Does project detail provide a complete understanding of the project
+    - Does the project detail provide you a complete picture of the project?
+    - where do I search about project details
+    - Where do I look for project information on mosaic?
+    - Is there a description for each project on mosaic
+    - Does each mosaic project include a description?
+    - Where can I get project details from?
+    - From where may I obtain project details?
+    - tell me how can I get information about a project on mosaic?
+    - tel me where can I get more information about a project on edu collab?
+    - help me to locate project details on edu collab
+    - i want more information about a project on mosaic?
+    - i dont know if project detail provides complete understanding of the project or not?
+    - Does the project detail give a detailed summary of the work?
+    - Where should I look for information about the project?
+    - tell me where should I go for project information?
+    - Does each mosaic project include a description?
+    - Does each mosaic project come with a summary?
+    - Where can I obtain more information about the project?
+    - How can I find out more about the project?
+
+- intent: faq-mosaic/mosaic-proj-start
+  examples: |
+    - can we start new project or do we need to select from the given in mosiac
+    - Can I work on a project other than the ones listed on mosaic
+    - Is it possible for me to work on a project other than the ones featured on mosaic?
+    - Can I undertake a project which is not listed in mosaic
+    - do we have to start project from the list given under mosaic
+    - does it require to select project from the list given in mosaic only
+    - will i get the opportunity to start with a new project or i have to choose the ones listed on mosaic
+    - are the projects listed in mosiac the only choice to select project from
+    - is starting a new project possible which is not on mosiac
+    - i want to start a new project which is not on mosiac list can i do so
+    - i am intersted in starting a new project can i do so
+    - please tell me is it possible to start a new project which is not on mosiac list
+    - am i allowed to start a new project that is not in mosiac list
+    - Can we start a fresh project or must we choose from the options in Mosiac?
+    - Is it possible for me to work on a project that isn't featured on mosaic?
+    - Can I work on a project that isn't on mosaic?
+    - Is it possible for me to work on a project that isn't featured in mosaic?
+    - Do we have to start the project from the mosaic list only?
+    - Is it necessary to choose a project just from the mosaic list?
+    - Will I be able to start a new project or will I have to pick from the ones mentioned on mosaic?
+    - Are the projects listed in Mosiac the only ones available for selection?
+    - Is it feasible to start a new project that isn't on Mosiac?
+    - I'd want to start a new project that isn't on the Mosiac list; is this possible?
+    - I'd want to start a new project, is it possible?
+    - Could you kindly inform me if I may start a new project that isn't on the Mosiac list ?
+    - May I begin a new project that is not on the Mosiac list?
+
+- intent: faq-mosaic/mosaic-proj-add-team
+  examples: |
+    - how can I add my team details for a project on mosaic
+    - How do I include information on the members of my project team?
+    - how can i add inf about project team members
+    - where do i add project team member details
+    - Where do I put the names of the project team members?
+    - I'm not sure where I may enter the names of the project team members.
+    - is there any option to add project team members?!
+    - Is there a way to add members to the project team?!
+    - Is it possible to add people to the project team?!
+    - Is it feasible to increase the project team size?!
+    - I'm not sure where I should put the project team members names.
+    - How do I contribute my team's information to a mosaic project?
+    - How do I provide information about my project team members?
+    - How can I submit details on the team members of project?
+    - Where do I put the names of the project team members?
+    - Where should I write the project team members' names?
+    - Where should I insert the project team members' names?
+    - Is it possible to add people to the project team?
+    - Is it possible to expand the project team?
+    - Can people be added to the project team?!
+    - Do you think it's possible to expand the project team?
+    - I'm not sure where the names of the project team members should go.
+
+- intent: faq-mosaic/mosaic-proj-mentors
+  examples: |
+    - how can I reach out to the project mentors
+    - What is the best way for me to contact the project mentors?
+    - how do i know who are my mentors for project
+    - How do I find out who my project mentors are?
+    - i want to contact my project mentors. How shall i do that?
+    - I'd like to make touch with my project mentors. I'm not sure how I'm going to accomplish it.
+    - How can I get in touch with my project mentors?
+    - How should I get in touch with my project mentors?
+    - Who are my project mentors
+    - How can I know about my project mentors
+    - How can I find out who my project mentors are?
+    - By what means can I contact my project mentors
+    - How do I communicate with mentors of project
+    - how many mentors are there for my project
+    - How many mentors does my project have?
+    - give me some ingormation about project mentors
+    - Please provide me with some information on project mentors.
+    - How do I contact the project mentors?
+    - How can I connect out to the project advisors in the most effective way?
+    - How can I find out who my project mentors are?
+    - How can I seek the mentors for my project?
+    - I'd want to get in touch with the mentors for my project. What's the best way for me to do this?
+    - I'd want to contact the mentors for my project. I'm not sure how I'll go about doing that.
+    - What is the best way for me to contact the mentors for my project?
+    - Where do I connect with the mentors for my project?
+    - Who are the mentors for my project?
+    - What is the best way for me to find out who my project mentors are?
+    - How can I locate my project mentors?
+    - How can I get in touch with the mentors for my project?
+    - What are my options for communicating with project mentors?
+
+- intent: faq-mosaic/mosaic-info
+  examples: |
+    - what is mosaic?
+    - what is the purpose of mosai section?
+    - What exactly is mosaic?
+    - What does the mosai section serve?
+    - what information does mosaic contain
+    - What information is contained in mosaic?
+    - what can i know from mosaic section on educollab
+    - What can I learn from educollab's mosaic section?
+    - how do I use mosaic in educollab
+    - what is mosaic all about?
+    - what information can I find under mosaic section
+    - What kind of information can I get from the mosaic section?
+    - What does mosaic section contain
+    - can you tell me something about mosaic
+    - Could you explain me a little bit about mosaic?
+    - give me some information regarding educollab mosaic
+    - Please provide me with some details about the educollab mosaic
+    - tell me about mosaic section
+    - explain about mosaic
+    - What does the mosai section represent?
+    - i dont know what exactly the mosaic is?
+    - what is work of mosaic section here?
+    - What data does mosaic hold?
+    - What data is contained in mosaic?
+    - What can I discover from educollab's mosaic section?
+    - What can I learn from the mosaic part of educollab?
+    - In educollab, how can I utilise mosaic?
+    - tell me all about mosaic section
+    - In the mosaic part, what information can I find?
+    - Can the mosaic part provide me with any useful information?
+
+- intent: faq-mosaic/mosaic-join-live-proj
+  examples: |
+    - can I join an ongoing project
+    - Is it possible for me to participate in an ongoing project?
+    - Can i join project which is already being carried out
+    - Can I participate in a project that is already underway?
+    - is it possible to join a project which is already going on
+    - Is joining a project which has already been started allowed?
+    - Is it permissible to join a project that has already begun?
+    - Is it possible for me to join a project in the middle?
+    - i wish to join a already begun project. Is it allowed?
+    - How do I join an ongoing project
+    - How do I become a part of an ongoing project?
+    - Is it possible for me to join an ongoing project?
+    - Is it feasible for me to become involved in a current project?
+    - Is it possible for me to join an ongoing project?
+    - Is it possible for me to be a part of an ongoing project?
+    - Is it acceptable to contribute in an ongoing project?
+    - am i allowed to join a project which has already going on?
+    - Is it legal to join a project that has already started?
+    - Is it acceptable for me to join in the middle of a project?
+    - I'd want to participate in a project that has already started. Is it permissible?
+    - How do I get involved in an ongoing project?
+    - How do I become a part of a project that is already in progress?
+
+- intent: faq-mosaic/mosaic-proj-count
+  examples: |
+    - how many total projects are available on mosiac
+    - What is the total number of projects offered on Mosiac?
+    - give me the total count of projects available
+    - Tell me how many projects are available in total.
+    - What is the exact count of projects available on mosaic
+    - How many projects are currently available on mosaic?
+    - how many projects are there in eaach category in mosaic
+    - give me information regarding number of projects available on mosaic
+    - Inform me about the quantity of projects available on mosaic.
+    - I want to know total projects available on mosaic
+    - can you tell me how many total projects are there
+    - What is the overall number of projects on Mosiac?
+    - How many projects are available on Mosiac in total?
+    - Please provide me with the total number of projects available.
+    - Please tell me how many projects there are in total.
+    - How many mosaic projects are there in total?
+    - How many mosaic projects are currently available?
+    - In mosaic, how many projects exist in each category?
+    - tell me about the amount of mosaic projects that are currently accessible.
+    - Let me know how many projects are accessible on mosaic.
+    - I'd want to know the overall number of mosaic projects accessible.
+    - Could you please give me the overall number of projects? 
+
+- intent: faq-mosaic/mosaic-projects              # Date 25 Nov 2021
+  examples: |
+    - how can we search on mosaic section for specific projects
+    - How can we look for certain projects in the mosaic section?
+    - What is the best way to find certain projects in the mosaic section?
+    - What can be the most efficient approach to locate certain mosaic projects?
+    - i want to see certain projects in mosaic section, how can i
+    - i have to go through all projects on mosaic
+    - whats the procedure to search for projects in mosaic
+    - where is the mosaic section and how can i search projects in there
+    - jump me to mosaic section projects
+    - let me redirect to mosaic section, i want to see some projects
+    - i am interested to see some real time projects on mosaic
+    - i need your help to find projects on mosaic
+    - i am not able to find projects on mosaic section
+    - i dont know where are the projects  under mosaic section
+    - kindly help me to search projects on mosaic section
+    - help me finding specific projects on mosaic
+    - please tell me the way to search for  projects in mosaic section of edu collab
+    - i want to search for certain projects but i am confused with mosaic section
+    - how can you help me to reach out for projects edu collab
+    - where to seach for projects on edu collab
+
+- intent: faq-mosaic/certifications
+  examples: |
+    - can we get certified from sabudh even if we don't do a passion project
+    - I am confused if i do not complete or chose my passion project, will i still get certificate
+    - i dont know if it is compulsory to do passion project in order to get certified from Sabudh
+    - I'm not sure if completing a passion project is required in order to receive a certificate from Sabudh.
+    - is it required to do passion project to get Sabudh certification.
+    - please tell do i need to do passion project to recieve certificate
+    - let me know i need to complete a passion project or not  for getting certificate.
+    - can i leave passion project, will i be still able to get certificate
+    - is passion project mandatory to get certification from Sabudh
+    - i dont want to do passion project as i dont have much time, so will i still get certified?
+    - Will I still get certified if I don't undertake a passion project ?
+    - If I don't do a passion project, then i will be certified or not after internship?
+    - if i do my whole internship without a passion project, will i recieve certificate
+    - is passion project recommended in order to get certified from Sabudh?
+    - i want to do this internship without a passion project, will i get any certificate or not
+    - is it possible to get certificate of internship without doing passion project?
+    - will i be eligible for sabudh certification if skip passion project
+    - If I omit the passion project, would I be able to get a sabudh certification?
+    - If I don't do the passion project, will it restrict my sabudh certification?
+
+# question
+- intent: faq-question/ask-ques
+  examples: |
+    - how can I ask a question?
+    - What is the best way for me to ask a question?
+    - I'm not sure how I can to ask a question.
+    - How am I intended to ask a question?
+    - best way to ask a question
+    - tell me how to ask questions here?
+    - what is method to ask a question?
+    - tell the procedure to ask a question here?
+    - i dont know how to ask questions here?
+    - how to let you know my queries?
+    - tell the process that a question should be asked here?
+    - guide the approach to ask a question in this site?
+    - help me figure out how to ask a question on this site?
+    - suggest a strategy for asking a question on this website?
+    - give me advise on how to ask a query on this site?
+    - Can you tell me how to post a question on this site?
+    - What is the best way to ask a question
+    - And what's the ideal way for me to ask a question?
+    - I don't know how to approach a question.
+    - How do I ask my queries on educollab
+    - How do I submit my educollab questions?
+    - What way can I post my educollab questions?
+    - instruct the procedure to ask a query in this location?
+    - direct the procedure to ask a query in this site?
+    - where can I ask questions on educollab?
+    - where can I post my question?
+    - make a suggestion about how to ask a question on this website?
+    - offer a recommendation for how to ask a question on this website?
+    - Is it possible to post my question on educollab?
+    - Does educollab allow posting queries?
+
+- intent: faq-question/coins-use
+  examples: |
+    - how can I utilize my coins with the questions?
+    - What are the best ways for me to use my coins in the questions?
+    - How can I use my coins to answer the questions?
+    - In the questions, what are the greatest methods for me to use my coins?
+    - In questions, what are the best ways for me to spend my coins?
+    - tell me perfect way to use my coins, according to questions
+    - i dont know how to use my coins i the questions
+    - can you suggest me how can i best utilize my coins in th questions
+    - that is best use of coins with the questions?
+    - I'm not sure how to spend my coins, according to the FAQs
+    - I'm not understanding how to spend my coins, according to the FAQs
+    - I'm not sure how to use my coins
+    - what to do with the coins in the questions
+    - i am not familier with the concept of coins here
+    - what is the role of coins here?
+    - i have no idea what to do with my coins in edu collab
+    - how can coins be helpful to me
+    - Can number of coins affect my grades
+    - What are the best ways for me to utilise my coins to answer the questions?
+    - What are the best method for me just to use my coins to answer the questions?
+    - how to use collected coins to ask questions?
+    - How can I utilise the coins I've collected to ask questions?
+    - How could I spend the coins I've collected to ask questions?
+    - What will be the usage of the coins I have gained?
+    - What will I do with the coins I've acquired?
+    - According to the FAQs, I'm not sure how to spend my coins.
+    - where can I usitilized the collected coins
+    - What is the purpose of coins in educollab
+    - What role do coins play in this scenario?
+    - What is the advantage of gaining more coins
+
+- intent: faq-question/ans-question
+  examples: |
+    - can I answer a question asked by someone else?
+    - how to answer a question that is asked by someone else?
+    - is it possible to answer the questions of other people?
+    - do we have permission to answer to someone's questions?
+    - Can I respond to a question posed by another person?
+    - can i give my views on someone's question?
+    - may i answer someone's questions on edu collab?
+    - can i use edu collab to answer someone's question?
+    - do edu collab provide facility to answer to que of other people?
+    - is there any restriction to answer someone's questions?
+    - am i restricted to ask the questions asked by other people on edu collab?
+    - Is there a limit to how many questions you can answer on edu collab?
+    - Does edu collab have a restriction on the number of questions you can answer?
+    - Am I limited to answering questions posed by others on edu collab?
+    - Is there a limit to how many questions you can answer?
+    - can I answer questions asked by someone on educollab?
+    - Can I ask already asked questions?
+    - Does educollab allow asking multiple questions?
+    - Does edu collab offer the ability to respond to other people's questions?
+    - is there any limit for number of questions asked?
+    - what type of questions can I ask on educollab?
+
+- intent: faq-question/ans-video
+  examples: |
+    - is it mandatory to use the edu-collab app to create solution videos?
+    - Is it necessary to make solution videos using the edu-collab app?
+    - is there any compulsion to create solution videos on edu collab?
+    - i dont know whether i should use edu collab to create solution vidoes or not
+    - What if I don't use edu collab to make solution videos?
+    - Is it required that solution videos be created using the edu-collab app?
+    - can i skip process of creating solution videos on edu collab?
+    - i dont like to create solution vidoes using edu collab, can i skip it?
+    - creating solution videos on edu collab is not a mandatory part i think?
+    - i am sure its not compulsory to create solution videos on edu collab
+    - i think creating sol videos on edu collab is not required
+    - will it do if I dont create solution video on educollab?
+    - will my grades be affected if I dont create video of solution?
+    - Am i required to make solution video compulsorily?
+    - Is it mandatory for me to prepare a solution video?
+    - What will happen if II dont create video of solution?
+    - How do I create solution video for educollab?
+    - I dont think there is any compulsion to create solution video for eucollab?
+    - What way can I build an educollab solution video?
+    - I don't believe that making sol videos for edu collab is necessary.
+    - What if I dont make any sol video and post it?
+    - I dont wish to make solution video on educollab
+    - I dont intend to create any solution video. Will it do?
+    - How long solution video can be?
+    - Does it require to post a solution video on educollab to get certificate?
+    - On educollab, am I supposed to post the solution video?
+
+# courses
+- intent: faq-course/enroll-courses
+  examples: |
+    - how can I add courses under my courses section?
+    - How to put courses under my courses section?
+    - is there any way to add courses in my courses section ?
+    - what steps we need to add courses in my courses section ?
+    - can you tell me the procedure to add courses in my courses section ?
+    - is it possible to add course in my courses section.
+    - ways we need to follow to add courses under my courses section
+    - i would really appreciate if you tell me how to add courses under my courses section
+    - please let me know how to add course in my courses section
+    - if you tell me how to add course in my courses section, it would really helpful
+    - could you please tell me about how to add courses in my courses section
+    - how do i add courses in my courses section
+    - How do we go about adding courses to my courses section?
+    - What procedures do we need to take to add courses to my courses section ?
+    - could you tell me what action should i take to add course in my courses section ?
+    - can you tell me how to add courses in my courses section
+    - in my courses section, is it possible to add courses.
+    - please teach me how to put courses under my courses section?
+    - could you explain me how to put courses under my courses section?
+    - it would be really useful if you tell me how to put courses under my courses section
+    - What way can I add courses to the courses part of my website?
+    - Where do I need to go if I want to subscribe a particular course on educollab?
+    - Where do I go if I wish to subscribe to a certain educollab course?
+    - What are the maximum number of cources can I subscribe to?
+    - Is it possible to add courses to my courses section?
+    - What is the best way to add courses to my courses section?
+    - I'd be grateful if you could teach me how to add courses to my courses area.
+    - How to add new course in course section?
+    - What is the procedure for adding a new course to the course section?
+    - How do we go about adding courses to my courses section?
+
+- intent: faq-course/enroll-limit
+  examples: |
+    - what's the limit to subscribe under the other courses section?
+    - is there any limit to subscribe courses under other courses section
+    - can you tell me what's the limit to subscribe courses
+    - it would really helpful if you tell me the limit to subscribe courses
+    - is there really a limit to subscribe courses?
+    - is it neccessary to subscribe courses in limit?
+    - if you can tell me the limit to subscribe corse, it would really helpful
+    - any limit to subscribe courses
+    - am i really subscribe other courses in limit
+    - i would appreciate if you tell me how much other courses i can subscribe
+    - what's the limit to subscribe other courses
+    - What is the subscription limit for the other courses section?
+    - Is there a limit to how many courses you can subscribe to in the other courses section?
+    - Could you tell me how many courses I can subscribe to?
+    - It would be extremely useful if you could inform me how many courses I can subscribe to.
+    - Is there truly a limit to how many courses you can subscribe to?
+    - Is it necessary to subscribe to a certain number of courses?
+    - It would be extremely useful if you could inform me the subscription limit.
+    - Is there a limit to how many courses you may subscribe to?
+    - Am I Really Subscribing to Other Courses in a Limited Capacity?
+    - I'd love it if you could tell me how much other courses cost.
+    - Is there a limit to how many courses you may subscribe to? 
+
+- intent: faq-course/course-categories
+  examples: |
+    - what different categories of courses are there?
+    - how many categories are there in courses
+    - in how many ways we categorize are course
+    - it would really helpful if you tell me how many categories for courses are there
+    - please tell me the how many categories for courses are there?
+    - How many distinct types of courses are there?
+    - pls tell me how many categories are available for courses
+    - What are the different types of courses?
+    - How many different kinds of programs are there?
+    - How many unique specialisations are there?
+    - It would be extremely useful if you could inform me how many different course categories there are.
+    - Could you kindly inform me how many different types of courses there are?
+    - What are the many sorts of courses available?
+    - Please tell me how many course categories are offered.
+
+- intent: faq-course/subscribed-courses       # Date: 25 Nov 2021
+  examples: |
+    - how can i view the courses that i have suscribed to
+    - i want to view the subscribed courses
+    - could you please tell how to see all asubscribed courses in edu collab
+    - i dont know where are my all subscribed courses
+    - take me to page where i can access all the subscribed courses
+    - where are subscribed courses on edu collab
+    - i am not familier with edu collab, so tell me where i can see subscribed courses
+    - i have subcribed some courses on edu collab and now i want to see them all, how can i
+    - i'd like to check all the subcribed courses on edu collab
+    - where can i access all subscribed courses on edu collab
+    - in which section under edu collab, all subscribed courses are located
+    - view the subscribed courses on edu collab
+    - On edu collab, where can i see the courses that have been subscribed to.
+    - how to find subscribed courses on edu collab
+    - show me the location of subscribed courses under edu collab
+    - i am unable to find subscribed courses on edu collab
+    - On edu collab, I can't seem to discover any subscribed courses.
+    - help me discover subscribed courses on edu collab
+    - show me the courses i have subscribed to on edu collab
+
+- intent: faq-course/courses-rating
+  examples: |
+    - can we give rating to courses on edu collab
+    - how can i give ratings to courses available on edu collab platform
+    - is there any way to rate the courses on edu collab
+    - please tell me if i can rate or review the courses on edu collab
+    - Is it possible to rate courses on edu collab?
+    - Can we rate edu collab courses?
+    - Can we offer courses on edu collab a rating?
+    - i want to rate the courses availabe on edu collab, can i?
+    - Is there a method to rank edu collab courses?
+    - am i able to rate the edu collab courses
+    - it will be good if we can rate the edu collab courses
+    - is rating feature for courses available on this platform
+    - all the courses are very nice and i want to rate them all, but how can i
+    - i dont know if i can rate or not the courses of edu collab
+
+# Date: 25 Nov 2021
+
+- intent: faq-tatras/sabudh-role
+  examples: |
+    - what is the role of tatras in sabudh
+    - i want to know about role of tatras in Sabudh
+    - can you tell me why is tatras in sabudh
+    - I'm curious in the role of tatras in Sabudh.
+    - clarify me of tatras role in sabudh foundation
+    - help me clear my dout regarding tatras role in sabudh
+    - what role does tatras playing in sabudh
+    - is there any role of tatras for sabudh
+    - please tell me is there a place for tatras in sabudh?
+    - Do tatras have any significance in the case of Sabudh?
+    - Is there any importance to tatras in the case of Sabudh?
+    - Do tatras play a role in Sabudh's case?
+    - i have one doubt that does tatras matter in case of sabudh
+    - i dont know if tatras has any role in sabudh or not
+    - I'm not sure if Tatras plays a part in Sabudh.
+    - tell me if Tatras has anything to do with Sabudh.
+
+- intent: faq-tatras/sabudh-part
+  examples: |
+    - is tatras the part of sabudh ?
+    - is tatras separate from sabudh
+    - whats the difference between tatras and sabudh
+    - is tatras and sabudh related with each other in any way
+    - i dont know if tatras is part of sabudh or whatever
+    - clarify me that if tatras comes under sabudh
+    - Is tatras significant in Sabudh's case?
+    - do you know if tatras is a part of sabudh or not?
+    - help me know that tatras is included in sabudh or not
+    - Please tell me if the Tatras are included in Sabudh or not.
+    - Kindly inform me whether or not the Tatras are part of Sabudh.
+    - let me know if tatras is related with sabudh or not
+    - Pls inform me if the Tatras are linked to Sabudh or not.
+    - are tatras and sabudh connected with each other?
+    - Is there a link between the Tatras and the Sabudh?
+    - i am confused that does tatras and sabudh has any relationship
+
+- intent: faq-tatras/info
+  examples: |
+    - is tatras a company or foundation
+    - tell me tatras is a company or foundation or not
+    - i dont know what is tatras
+    - help me to know a little bit about tatras
+    - please let me know whether tatras is company or foundation ?
+    - Please tell me if Tatras is a corporation or a nonprofit.
+    - Can you please tell me if Tatras is an organization or a foundation?
+    - i need your help to know that  tatras is foundation or company?
+    - I'm not sure what tatras is.
+    - i am not aware with tatras, is it a organisation?
+    - i think tatras is also a foundation
+    - in my perspective of view, tatras is more like a foundation, but could you pls clarify me
+    - Please assist me in discovering more about the Tatras.
+    - Please assist me in getting to know more about the Tatras.
+    - i am interesed to know the fact that tatras comes under sabudh or not
+
+- intent: faq-tatras/work-type
+  examples: |
+    - what type of work is done in tatras
+    - what tasks we will be performing in tatras
+    - what work we will do in tatras
+    - i want to know that which type of work is to do in tatras
+    - please inform me for type of work that is done in tatras
+    - i dont know what tasks are performed in tatras
+    - could you please tell me what tasks are performed in tatras
+    - which type of jobs are carried out in tatras
+    - i am not sure what jobs people do in tatras
+    - I'd like to know what kind of job is available in the Tatras.
+    - do you know what kind or sort of work is done in tatras
+    - i am confused for which type of work is assigned in tatras
+    - kindly inform me what kind of job or work is allocated in tatras
+    - please let me know what kind of work does tatras will give us to do
+    - do you have any kind of info about jobs of tatras, what tasks do we have to perform here
+    - it will be helpful if you give some idea about what kind of job do we have to do in tatras
+
+- intent: faq-tatras/job
+  examples: |
+    - how can i get a job in tatras
+    - could you please tell how to get employed in tatras
+    - i want to be employee in tatras, please do let me know how
+    - how can i be employed in tatras
+    - i dont have any idea to get job in tatras
+    - please let me know the procedure for get employed in tatras
+    - i am very excited to work for tatras, but how can i get job here
+    - I am extremely eager to work with Tatras, but how do I go about getting a position here?
+
+# - intent: faq-tatras/projects
+#   examples: |
+#     - is the projects are done in tatras
+
+- intent: faq-sabudh/work
+  examples: |
+    - what does sabudh do
+    - role of sabudh
+    - tell me the work of sabudh
+    - i would appreciate if you tell me the work of sabudh
+    - plzz let me know the purpose of sabudh
+    - why sabudh built 
+
+- intent: faq-sabudh/relationship
+  examples: |
+    - what is the relation between sabudh and tatras
+    - how tatras and sabudh are connected
+    - is tatras and sabudh have relationship 
+    - is there any bond between tatras and sabudh
+    - how saubdh and tatras are interconnected
+    - is it true that sabudh and tatras are same
+    - how we can diffrentiate sabudh and tatras
+
+- intent: faq-mentor/mentor-assigned
+  examples: |
+    - how can i get a mentor
+    - what's the way to get mentor
+    - how we can get a mentor
+    - procedures of getting a mentor
+    - what are the ways to get a mentor
+    - is it true that mentors are assigned automatically
+    - i would appreciate ifyou tell me how to get mentor
+
+- intent: faq-mentor/role-of-mentor
+  examples: |
+    - what is the role of mentor 
+    - what does mentor do
+    - explain the work of mentor
+    - why mentors are assigned
+    - is it really need of mentors
+    - explain the role of mentor
+    - i would appreciate if you tell me the role of mentors
+
+- intent: faq-mentor/mentor-number
+  examples: |
+    - how many mentors can I get
+    - What is the maximum number of mentors I can have?
+    - What is the quantity of mentors I can have?
+    - How many mentors am I able to secure?
+    - How many mentors am I able to obtain?
+    - How many mentors can I obtain?
+    - Is there any limit to number of mentors I can get?
+    - what number of mentors will I be assigned?
+    - How many mentors will be assigned to me?
+    - What is the total number of mentors I will have?
+    - what's the overall number of mentors I can have?
+    - Is there a cap on how many mentors I can have?
+    - Can I have a certain amount of mentors?
+    - Can I just have that amount of mentors?
+    - Is there a limit to how many mentors I can have?
+    - Can I have only that many mentors?
+    - can I have more mentors?
+    - Please tell me how many mentors can I get?
+    - Can you tell me how many mentors I'll be able to get?
+    - Can you tell me how many mentors I'll be able to hire?
+    - Could you please inform me how many mentors I can have?   
+
+- intent: faq-mentor/mentor-data
+  examples: |
+    - how can i know who is our mentor
+    - How can I find out who our mentor is?
+    - Can you tell me who our mentor is?
+    - I want to know who is my mentor
+    - I'd like to know who my mentor is.
+    - Could you tell me who my mentor is?
+    - Please tell me who is my mentor?
+    - I'd like to find out who my mentor is.
+    - tell me my mentor's name
+    - Please tell me who my mentor is.
+    - Inform me of the name of my mentor
+    - Whom should I ask about my mentor?
+    - Should I inquire about my mentor with whom?
+    - Who should I consult on my mentor?
+    - Who should I contact regarding my mentor?
+    - can you tell me how I can know my mentor
+    - Could you please tell me how I can get to know my mentor?
+    - please explain how I can get to know my mentor?
+    - how can I know about my mentor?
+    - How do I find out who my mentor is?
+    - how can I come to know my mentor?   
+
+- intent: faq-mentor/mentor-info
+  examples: |
+    - how can i contact to my mentor
+    - How can I get in touch with my mentor?
+    - What is the best way for me to get in touch with my mentor?
+    - Which is the ideal way for me to get in contact with my mentor?
+    - how to contact mentors
+    - how to get in touch with mentors
+    - on which platform should I get in contact with my mentor?
+    - I should contact my mentor through which platform?
+    - want to contact my mentor
+    - which is the possible way to contact mentors?
+    - any particular platform for contacting mentors?
+    - Is there a specific platform for contacting mentors?
+    - Is there a specific way to contact mentors?
+    - Could there be a particular way of contacting mentors?
+    - where can I interact with mentor?
+    - How can I communicate with my mentor?
+    - What is the best way for me to communicate with the mentor?
+    - how to get in touch with mentors
+    - Suggest me ways to contact mentor
+    - Please suggest ways for me to contact the mentor.   
+
+- intent: faq-mentor/mentor-help
+  examples: |
+    - what kind of help mentor can give
+    - how can mentors help
+    - What kind of assistance may a mentor provide?
+    - what type of help mentor can give
+    - How much assistance can a mentor provide?
+    - What sort of help may a mentor deliver?
+    - what way can mentors help me
+    - How can mentors assist me?
+    - How can mentors benefit me?
+    - What way can a mentor support me?
+    - How can mentors aid me?
+    - what type of help should I expect from my mentor?
+    - What kind of assistance might I anticipate from my mentor?
+    - Exactly what type guidance could I expect from my mentor?
+    - Know what sort support should I expect from my mentor?
+    - how can I get mentor help
+    - how much can a mentor help?
+    - what type of help a mentor gives?
+    - I want some type of mentor help.
+    - what sort of help can a mentor provide
+    - can u tell me how would mentors be help to us?
+    - how would we be benefitted from mentors?
+    - what are the benefits of having mentors?
+
+- intent: faq-mentor/mentor-help-assignment
+  examples: |
+    -can mentor help in solving assignement
+    - should I rely on my mentor for solving coursework
+    - Can a mentor assist with an assignment?
+    - Should I entrust my coursework to my mentor?
+    - should I expect help from mentor for coursework?
+    - Should I expect coursework assistance from my mentor?
+    - Can a mentor help with a project?
+    - I need help in solving assignments. Should I contact my mentor?
+    - I require assistance in completing assignments. Is it necessary for me to contact my mentor?
+    - Should I ask my mentors for help in assignments?
+    - Should I seek assistance from my mentors for assignments?
+    - will mentor help solving assignments
+    - I want help from mentors for assigments
+    - I'd like mentors to assist me with assignments.
+    - I'd like mentors to help me with my homework.
+    - I want my mentors to assist me with my coursework.
+    - I need mentor help for solving assignments
+    - i would wish if mentor helped me in my assignments
+    - It would be helpful if mentors help in assignments
+    - want to know if mentors guide how to solve assignments    
+
+- intent: faq-mentor/mentor-work
+  examples: |
+    - is my work checked by my mentor
+    - will mentor check my work
+    - will my work get checked by my mentor
+    - I want my mentor to check my work done
+    - Does my mentor review my work?
+    - Can my mentor evaluate my work?
+    - Would my mentor assess my work?
+    - Can my mentor verify my work?
+    - I'd like my mentor to review my work.
+    - I'd prefer my mentor to double-check my work.
+    - Please tell me if my mentor will cross check my work
+    - Could you please let me know if my mentor will double-check my work?
+    - how can I get my work checked by mentor
+    - am I allowed to get my work checked by mentor?
+    - Do mentors check work done?
+    - can i know if i can get my work checked by mentors
+    - Do mentors review completed work?
+    - Do mentors analyze finished work?     
+
+- intent: faq-mentor/change-mentor
+  examples: |
+    - can we change our mentor
+    - I want to change my mentor
+    - how do I change my mentor
+    - Is it possible to have new mentor
+    - Can a new mentor be appointed?
+    - How could a new mentor be selected?
+    - I'd like to change my mentor
+    - Is it possible to switch mentors?
+    - I'd want to change mentors.
+    - I wish to change my mentor
+    - Please tell me if I can change my current mentor
+    - Could you please inform me whether I may switch mentors?
+    - Will you please let me know whether I should change mentors?
+    - I want to have different mentor.
+    - I'd like to work with a different mentor.
+    - I want to connect with a different mentor.
+    - I'd want to connect with a new mentor.
+    - Let me know if I can change my present mentor
+    - Please let me know if I may switch mentors.
+    - want my mentors to be changed
+
+- intent: faq-mentor/mentor-assigned-myself
+  examples: |
+    - can we select our mentor by ourselves
+    - I want to select my mentor by myself
+    - Can we choose our mentor on our own?
+    - Can we decide our mentor all our own?
+    - am i allowed to choose mentor on my own
+    - Is it possible for me to pick my own mentor?
+    - Could it be viable for me to find my own mentor?
+    - Will it be reasonable for me to appoint my own mentor?
+    - What if I want to choose mentor myself?
+    - want to select my mentor on my own
+    - tell me if I am allowed to choose mentor myself
+    - I am selecting mentor myself
+    - is it okay to choose my mentor by my own
+    - suggest me some ways to find mentors by myself
+    - does sabudh allow selecting mentors on own?
+    - I'd like to choose a mentor
+    - would like to know how can i find a mentor?
+    - please tell me how to select mentors ourselves
+    - do we have freedom to select mentors
+    - can I appoint mentors as per my wish?
+    - are mentors chosen my us?
+    - Do we choose our mentors?
+    - it would be good if we select mentors oueselved   
+
+- intent: faq-mentor/other-mentor-help
+  examples: |
+
+
+- intent: faq-guftagu/location
+  examples: |
+    - how we can find guftagu
+    - where can i get guftagu
+    - i would appreciate if you tell me where we can locate guftagu
+    - how can i find guftagu
+    - where is guftagu located
+    - please let me know the location of guftagu
+    - plzz tell me where can i find guftgau
+    - how can we locate guftagu
+    - please tell me the where can i find guftagu
+    - i can't find guftagu
+    - from where we can get guftagu   
+
+- intent: faq-guftagu/purpose
+  examples: |
+    - what is the purpose of guftagu
+    - why guftagu made
+    - tell me the main purpose of guftagu
+    - why guftagu built
+    - i would appreciate if you tell me the purpose of guftagu
+    - plzz tell me why guftagu built
+    - i don't understand the purpose of guftagu
+    - what is the role of guftagu
+    - Why was Guftagu built?
+    - I'm not sure what guftagu is for.
+    - What is the function of guftagu?    
+
+- intent: faq-guftagu/friend-request
+  examples: |
+    - how can i add friend on guftagu
+    - how to add friend in guftagu
+    - plzz tell me the way to add friend in guftgau
+    - i would appreciate if you tell me how to add friend in guftagu
+    - can you help me to add friend in guftagu
+    - is there any way you can assisst me to add friend in guftagu
+    - what is the procedures to add friend in guftagu
+    - i can't find how to add friend in guftagu
+    - is guftagu have features to make friend 
+    - how can i add my friend in my friend list on guftgau
+    - What are the steps to add a friend in Guftagu?
+
+- intent: faq-guftagu/role
+  examples: |
+    - what is the role of chats and group in guftagu
+    - is there any difference between chats and group
+    - tell me the role of chats and groups in guftagu
+    - why guftagu have chats and groups
+    - why chats and groups was built in guftagu
+    - what is the purpose of chats and groups in guftagu
+    - What function do chats and groups play in guftagu?
+    - Is there a distinction between chats and groups?
+    - Please explain the function of chats and groups in Guftagu.
+    - What is the purpose of Guftagu's chats and groups?
+    - Why were chats and groups created in Guftagu?
+
+- intent: faq-guftagu/group-limit
+  examples: |
+    - is there any limit to make groups in guftagu
+    - tell me the maximium limit to make groups 
+    - how many groups can i make in guftagu
+    - is it possible to make 10 groups in guftagu
+    - is there any limit of making groups in guftgau
+    - is it true that we can make 30 groups in guftagu
+    - Is there a limit to the number of groups that may be formed in Guftagu?
+    - what is the guftagu's group limit
+    - can i make 2 groups in guftagu
+    - Is there a maximum number of groups that may form in Guftagu?
+    - what's the limit of making groups in guftagu    
+
+- intent: faq-guftagu/send-photo
+  examples: |
+    - can i send documents/photos on guftagu
+    - can i share images in guftgau
+    - is it possible that i can share documents or photos in guftagu
+    - is it true that guftgau have features of sharing imags with friends
+    - Is it possible to exchange photographs in Guftgau?
+    - am i able to post photos in Guftgau?
+    - Is it possible to submit documents/photos using guftagu?
+    - Is it possible to exchange photos in guftgau?
+    - Is it possible to exchange documents or photos using guftagu?
+    - Can I submit images in Guftgau?   
+
+- intent: faq-guftagu/group-photo
+  examples: |
+    - can we change our group photo in guftagu
+    - In Guftagu, can we update our group photo?
+    - In Guftagu, is it possible to update our group photo?
+    - Can we alter our guftagu group photo?
+    - i wanna change group photo in guftagu
+    - tell procedure for changing the group photo in guftagu    
+
+- intent: faq-guftagu/group-member-imit
+  examples: |
+    - how many members can we add in one group
+    - How many people can we fit into a single group?
+    - What is the maximum number of people we can have in a single group?
+    - i dont know how many members can be in a single  group in guftagu
+    - what number of members can i add to group in guftagu
+    - is there any limit to add group members in guftagu    
+
+- intent: faq-guftagu/friend-request
+  examples: |
+    - where can i find the friend requests
+    - how can i see friend requests on edu collab
+    - how to find friend requests in edu collab
+    - i dont know how to view friend requests
+    - where are my friend request can you tell me
+    - can you tell me the way to find my friend requests on edu collab
+    - i am unable to find the friend requests on edu collab
+    - do you know where could be my friend req on edu collab
+    - where do my friend requests exist on edu collab
+    - Do you have any idea where my friend's req on edu collab could be?
+    - On edu collab, where can I find my buddy requests?
+    - On edu collab, I can't locate the friend requests.
+    - Can you tell me how to find my edu collab friend requests?
+    - On edu collab, how can I view friend requests?
+    - What is the location of the friend requests on edu collab?
+    - i wanna know that how to see friend req on edu collab
+    - I'm looking for the friend requests, but I am not able to find them anywhere on edu collab.
+    - Where do I look for buddy requests?
+    - help me to find out all my friend requests on edu collab
+    - Please assist me in locating all of my edu collab friend requests.
+    - Kindly guide me track down all of my edu collab friend requests.
+
+- intent: faq-guftagu/chat
+  examples: |
+    - can i send message to any user in guftagu
+    - how to send message to any user in guftagu
+    - can we chat with any user in guftagu
+    - is it possible to have chat with any user on edu collab's guftagu section
+    - is there any way to send messages any user in guftagu
+    - can we send message to any user in guftagu
+    - Is it possible for us to send a message to any user in Guftagu?
+    - i'd want to send a message to someone in Guftagu, but i'm not sure how to do it.
+    - is chating with any user allowed in guftagu section of edu collab
+    - Is guftagu area of edu collab allowing users to chat with each other?
+    - help me to know if i can send messages to any user in guftagu or not
+    - suggest me the way i can chat with any user in guftagu
+    - Please propose a method for me to communicate with users in Guftagu.
+    - chating with any user in guftagu is allowed or not?
+    - Is it permissible to talk with anyone in guftagu?
+    - Is it legal to converse with anyone in Guftagu?
+
+- intent: faq-guftagu/group-add
+  examples: |
+    - can i add a user in our group in guftagu who is not my friend
+    - Is it possible to add a non-friend to our Guftagu group?
+    - Is it feasible to include someone who isn't a buddy in our Guftagu group?
+    - Is it able to add someone who isn't a Guftagu buddy to our group?
+    - i want to add a non friend user in group on guftagu, can i do so
+    - i dont know to add user in guftagu group which is not my friend 
+    - I'm not sure how to add a person to the Guftagu group who isn't a friend of mine.
+    - Is it possible to add a non-friend user to a group on guftagu?
+    - Is it possible to add someone to our group who isn't a Guftagu friend?
+    - Is it possible for someone who isn't a friend to join our Guftagu group?
+    - Is it feasible to add someone who isn't a friend to our Guftagu group?
+    - Can I add a person who is not a friend to our guftagu group?
+
+- intent: faq-guftagu/group-remove
+  examples: |
+    - how can i remove user from my group in guftagu
+    - whats the method to remove a member from group in guftagu
+    - i want to remove a member from group in guftagu, how can i ?
+    - help me in removing a group member from guftagu 
+    - is there any way to remove a particular group member in guftagu ?
+    - i dont know how to remove a group person in guftagu
+    - I'm not sure how to remove a group member in Guftagu.
+    - Is it possible to remove a specific group member in guftagu?
+    - Assist me in removing a member of the guftagu group.
+    - How can I delete a member from a group in Guftagu?
+    - What is the procedure for removing a member from a group in Guftagu?
+    - In Guftagu, how can I delete a person from my group?
+
+- intent: faq-guftagu/block-user
+  examples: |
+    - how can i block a user
+    - i want to block a user in guftagu
+    - whats the way to block a particular user on guftagu
+    - kindly let me know how to block a specific user on guftagu 
+    - is it possible to block a user on guftagu, if yes then how ?
+    - i dont know to block a user in guftagu
+    - I'm not sure how to block a user in Guftagu.
+    - Is it possible to ban a user on Guftagu, and if so, how?
+    - Could you please tell me how to block a certain individual on guftagu?
+    - How do I block a certain person on guftagu?
+    - I'd want to remove a user on guftagu.
+    - some of the users i had wanted to block, so how to do that?
+    - do you know how to block a specific user from guftagu
+
+- intent: faq-guftagu/remove-user
+  examples: |
+    - how can i remove a user from my friend list
+    - What is the procedure for removing a user from my friend list in guftagu?
+    - How can I delete someone from my friend list in guftagu?
+    - i dont know how to remove someone from my friend list in guftagu?
+    - i want to remove a friend in guftagu, please tell me how to do that
+    - I'd want to delete a buddy from Guftagu; could you help explain how? 
+    - help me removing a friend from guftagu
+    - i am not familier with removing friends from friend list in guftagu
+    - do you know how to remove a friend form guftagu
+    - i want to remove some friends from my friend list, but dont know how to do that
+    - tell me the way to remove a friend from friend list        
+
+- intent: faq-guftagu/search-user
+  examples: |
+    - how can i search a friend in guftagu
+    - is there any way to search a friend in guftagu
+    - i would appreciate if you tell me to search a friend in guftagu
+    - Is it possible to search a friend in Guftagu?
+    - I'd love it if you could advise me where I may find a search in Guftagu.
+    - can i search a friend in guftagu
+    - how to find a friend in guftagu
+    - i would appreciate if you tell me to find a friend in gufatgu
+    - is there any way to find a buddy in gufatgu   
+
+- intent: faq-lecture/lecture-resources
+  examples: |
+    - where can i find resources used in a lecture on edu collab
+    - i need the resources used in lecture where can i find them
+    - please tell me where are resources for each lecture on this platform
+    - i am unable to find resources delievered in each lecture on edu collab
+    - how can i find resources that are used in lectures on edu-collab 
+    - assist me to locate the resources that are used in edu-collab
+    - facilitate me the resources that are used in edu-collab lectures
+    - i can't found the resources that are used in edu-collab lectures
+    - from where can i get the resources that are used in lectures
+    - it would be helpfull if you tell me where can i found resources for each lecture on this platform
+    - Where can I locate resources utilised in an edu collab lecture?
+    - In this platform, where can I discover resources utilised in a lecture?
+    - I'm looking for the lecture resources; where can I get them?
+    - Where can I access the resources used in the lecture?
+    - Please let me know where I may get resources for each lecture on this platform.
+    - Please inform me where on this platform I can get resources for each lecture.
+    - On edu collab, I am unable to locate the resources delivered in each lecture.
+    - I am unable to locate the resources given in each lecture on edu collab.
+    - Where can I access resources used in edu-collab lectures?
+    - On edu-collab, where can I locate lecture resources?
+    - Assist me in locating the resources on this platform
+    - Provide me the resources used in edu-collab lectures.
+    - where is the resources used in edu-collab lectures
+    - It would be useful if you could inform me where on this platform I can get resources for each lecture.
+    - It would be great if you could inform me where I may get resources for each lecture on edu-collab
+    - Where can I get resources for an edu collab lecture?
+    - May you tell me where I can get resources used in an edu collab lecture?
+    - Where can I get the resources utilised in the edu-collab lectures?
+    - Where can I get lecture resources on edu-collab?
+    - Could you please tell me where I may obtain resources for an edu collab lecture?
+
+- intent: faq-lecture/resource-notfound
+  examples: |
+    - I am not able find resource for a lecture under the resources section whom to contact
+
+- intent: faq-lecture/lecture-assesment
+  examples: |
+    - where can i find the assesments that i am required to complete
+    - how can i locate the assessment that i am required to complete
+    - locate me the assessment that are not complete
+    - where is the uncompleted assessment of mine
+    - assist me to find the undone assessment on this platform
+    - tell me the location where all my uncompleted assessment are exist
+    - on this platform where can i find my undone assessments
+    - Where can I locate the assessments that I need to complete?
+    - Where can I get the assessment that I'm supposed to do?
+    - Find the assessments that aren't finished
+    - Where can I find my unfinished assessment?
+    - Assist me in locating the incomplete assessment on this platform.
+    - Tell me where I may find all of my unfinished assessments.
+    - Where can I locate my unfinished assessments on this platform?
+    - Where can I locate the assesments that I need to complete?
+    - What are the locations of the assessments that I need to complete?
+    - Where can I get the assessment that I'm supposed to do?
+    - Where can I get the assessment that I am expected to complete?
+    - how Do I get the assessment that I need to complete?
+    - Find the assessments that aren't finished 
+    - Find me the assessments that aren't completed.
+    - Where can I find the assessments I need to take?
+    - from where can I see the assessments I need to finish?
+    - Where can I obtain the assessment that I am required to complete?
+    - Where can I obtain the assessment that I am required to complete?
+
+- intent: faq-lecture/notes-upload
+  examples: |
+    - can i upload my notes to edu collab
+    - is it possible to upload my notes on this platform
+    - it would be really helpful if you tell me to update my notes
+    - how to upload notes on this platform
+    - how can i upload my notes
+    - is it feasible for me to upload my notes
+    - i would appreciate if you tell me how to upload notes
+    - can you help me to upload my notes on this platform
+    - is there way to upload my notes on this platfrom
+    - assisst me to upload my notes on edu-collab
+    - provide me help to upload the notes on this platform
+    - Is it possible for me to submit my notes to edu collab?
+    - Will my notes be able to be uploaded to this platform?
+    - Is it feasible for me to upload my notes to this platform?
+
+- intent: faq-lecture/download-lecture
+  examples: |
+    - is it possible to download lectures from edu collab
+    - how can i downlod lectures from edu-collab
+    - is there any way to download the lectures of edu-collab
+    - can tell me how to download lectures from this platform
+    - how am i supposed to download lecture from this platform
+    - where can i download lectures from edu collab
+    - could you please tell me how can i download lectures from edu collab
+    - it would be helpful if you tell me how to download lectures 
+    - on this portal can we download lectures on this platform
+    - how to download lectures
+    - is it possible to download edu-collab lecture's
+
+# Naman and Nisha data For Machine Learning BOT
+
+- intent: faq-logistic/about
+  examples: |
+    - logistic regression meaning?
+    - what is logistic regression in ai?
+    - what is logistic regression in artificial intelligence?
+    - what is logistic regression in machine learning?
+    - what is logistic regression in artificial intelligence?
+    - define logistic regression in artificial intelligence .
+    - Define  logistic regression in machine learning?
+    - meaning of logistic regression?
+    - what is meaning of logistic regression?
+    - why do we need logistic regression?
+    - meaning of logistic regression in ai?
+    - meaning of logistic regression in artificial i ?
+    - meaning of logistic regression in ml?
+    - meaning of logistic regression in machine learning?
+    - definition of  logistic regression
+    - definition of  logistic regression in ml?
+    - definition of  logistic regression in machine learning?
+    - express in words logistic regression
+    - put into words logistic regression
+    - clarify logistic regression
+    - clear up logistic regression
+    - tell me about logistic regression
+    - definition of  logistic regression in ai?
+    - definition of  logistic regression in artificial intelligence 
+    - explain logistic regression?
+    - describe logistic regression
+    - give the meaning of logistic regression
+
+- intent: faq-logistic/diff
+  examples: |
+    - diff bw logistic regression and linear regression
+    - tell me difference in linear and logistic regression
+    - difference between logistic regression and linear regression
+    - difference between logistic regression and linear regression
+    - what is  difference between logistic regression and linear regression
+    - explain  difference between logistic regression and linear regression
+    - what is difference in logistic regression and linear regression
+    - dissimilarity between logistic regression and linear regression
+    - Distinction between logistic regression and linear regression
+    - give distinction between logistic regression and linear regression
+    - give distinction between logistic regression and linear regression in machine learning?
+    - give distinction between logistic regression and linear regression in artificial intelligence?
+    - give distinction between logistic regression and linear regression in ml?
+    - give distinction between logistic regression and linear regression in ai ?
+    - can you tell me difference in linear and logistic regression
+    - Please tell me difference in linear and logistic regression
+    - pls help me with the difference in linear and logistic regression
+    - pls help me with the linear and logistic regression
+    - explain linear and logistic regression
+    - can you help me with the difference in linear and logistic regression
+
+
+- intent: faq-logistic/log_curve
+  examples: |
+    - explain curved line for logistic regression instead of a straight line?
+    - why we have curve for logistic regression instead of a straight line?
+    - Why do we have a curved line for logistic regression?
+    - tell me why we have a curved line for logistic regression?
+    - can you tell me why do we have a curved line for logistic regression instead of a straight line?
+    - curved line for logistic regression instead of a straight line
+    - describe briefly why we have curve for logistic regression instead of a straight line?
+    - briefly explain why we have curve for logistic regression instead of a straight line?
+    - why the graphs have curve for logistic regression instead of a straight line?
+    - why logistic regression have curve line instead of a straight line?
+    - justify why do we have a curved line for logistic regression instead of a straight line?
+    - demonstrate why do we have a curved line for logistic regression instead of a straight line?
+    - logistic regression have curved line why?
+    - pls help me with why do we have a curved line for logistic regression instead of a straight line?
+    - please help me with why do we have a curved line for logistic regression
+    - pls help me with why do we have a curved line for logistic regression
+    - please  describe me why do we have a curve line for logistic regression
+    - please explain  me why do we have a curve line for logistic regression
+    - why logistic regression makes curve line
+
+
+- intent: faq-logistic/sigmoid
+  examples: |
+    - define Sigmoid Function?
+    - explain in breif about Sigmoid Function?
+    - describe Sigmoid Function?
+    - tell me about Sigmoid Function
+    - help me with Sigmoid Function
+    - Sigmoid Function
+    - explain in detail about Sigmoid Function?
+    - can you help me with Sigmoid Function?
+    - briefly explain Sigmoid Function
+    - express in words about Sigmoid Function
+    - put into words about Sigmoid Function
+    - clarify Sigmoid Function
+    - can you help me with Sigmoid Function
+    - please help me with Sigmoid Function
+    - meaning of Sigmoid Function
+    - clear up Sigmoid Function
+    - defination of Sigmoid Function
+    - why do we need Sigmoid Function
+    - give the defination of Sigmoid Function
+    - tell me about Sigmoid Function in logistic regression
+    - help me with Sigmoid Function in logistic regression
+    - Sigmoid Function in logistic regression
+    - explain in detail about Sigmoid Function in logistic regression
+    - can you help me with Sigmoid Function in logistic regression
+    - briefly explain Sigmoid Function in logistic regression
+    - express in words about Sigmoid Function in logistic regression
+    - put into words about Sigmoid Function in logistic regression
+    - clarify Sigmoid Function in logistic regression
+
+
+- intent: faq-logistic/sigmoid_formula
+  examples: |
+    - formula of the logistic sigmoid function
+    - formula of sigmoid function
+    - explain formula of sigmoid function
+    - what is the formula of logistic sigmoid function
+    - give the formula of sigmoid function
+    - define the formula of sigmoid function
+    - briefly explain formula of sigmoid function
+    - can you tell me formula of sigmoid function
+    - give the explaination of the formula of sigmoid function
+    - call off formula of sigmoid function
+    - please help me with the formula of sigmoid function
+    - how formula of sigmoid function works
+    - describe briefly the formula of sigmoid function
+    - please explain formula of sigmoid function
+    - tell the formula of sigmoid function
+    - express the formula of sigmoid function
+    - can you help me with the formula of sigmoid function
+    - calculation of logistic sigmoid function
+    - explain the formula of logistic sigmoid function
+    - give the formula of logistic sigmoid function
+    - the formula of logistic sigmoid function
+    - the formula of logistic function
+    - call off the formula of logistic sigmoid function
+    - demonstrate the formula of logistic sigmoid function
+    - express into words the formula of logistic sigmoid function
+    - justify the formula of logistic sigmoid function
+    - the formula of logistic sigmoid function
+    - the formula of logistic sigmoid function
+
+
+- intent: faq-logistic/log_loss
+  examples: |
+    - Explain log loss
+    - Meaning of log loss
+    - What is the meaning of log loss
+    - Clear up log loss
+    - Tell me about log loss
+    - Definition of log loss
+    - Define log loss in AI
+    - What exactly is a log loss
+    - Explain In detail log loss
+    - Clarify log loss
+    - Describe log loss
+    - Why do we need log loss
+    - Briefly explain log loss
+    - Give a detailed summary of log loss
+    - Give the meaning of log loss
+    - What does log loss mean
+    - log loss meaning? 
+    - What is the meaning of log loss
+    - Put into words log loss
+    - Express in words log loss
+    - Definition of log loss in AI
+    - What is log loss in Artificial intelligence
+    - Give a detailed meaning of log loss
+    - Define log loss completely
+    - purpose of log loss
+
+
+- intent: faq-logistic/loss_func
+  examples: |
+    - Meaning of loss function In logistic regression
+    - Define loss function for logistic regression
+    - Explain in detail loss function for logistic regression
+    - Explain breifly loss function for logistic regression
+    - Write about loss function for logistic regression
+    - Tell me about loss function for logistic regression
+    - Clarify loss function for logistic regression
+    - loss function for logistic regression meaning
+    - What exactly is a loss function for logistic regression
+    - Define loss function for logistic regression in detail
+    - Why do we need loss function for logistic regression
+    - What is the purpose of loss function in logistic regression
+    - Purpose of loss function for logistic regression
+    - Define completely loss function for logistic regression
+    - Explain in depth loss function for logistic regression
+    - Give details about loss function for logistic regression
+    - Give your views about loss function for logistic regression
+    - Meaning of loss function for logistic regression
+
+
+- intent: faq-logistic/types
+  examples: |
+    - Write the types of logistic regression
+    - Write down the types of logistic regression
+    - Explain the types of logistic regression
+    - Define the types of logistic regression
+    - Explain the types of logistic regression
+    - Tell me the types of logistic regression
+    - List the types of logistic regression
+    - Types of logistic regression
+    - List down the types of logistic regression
+    - Tell the types of logistic regression
+    - The types of logistic regression
+    - logistic regression types
+    - logistic regression types explanation
+    - Describe the types of logistic regression
+    - Give the types of logistic regression
+    - Provide the types of logistic regression
+    - Classification of logistic regression
+    - Different kind of logistic regression
+    - List the different types of logistic regression
+    - Discuss the types of logistic regression
+    - Write the types of logistic regression
+    - Write down the types of logistic regression
+    - Explain the types of logistic regression
+    - Define the types of logistic regression
+
+
+- intent: faq-logistic/activation_func
+  examples: |
+    - Explain activation function and it's uses
+    - Define an activation function and why to use them
+    - What is the meaning of activation function and explain it's uses
+    - Why do we need activation function
+    - Define activation function and it's uses
+    - What is the purpose of an activation function? Write any three uses
+    - Meaning of activation function and it's uses
+    - Express in words an activation function. 
+    - Clarify activation function. Why do we use it
+    - Tell me about activation function. Why do need it? 
+    - Activation function meaning and necessity
+    - What is an activation function. Also explain it's importance 
+    - Give a complete description of an activation function and why do we use it? 
+    - Explain in detail an activation function. What is the use of an activation function? 
+    - Define activation function. Why is it necessary in AI
+    - What is the use of an activation function in AI? Explain in detail
+    - Definition of activation function. Why do we need it
+    - Clear up activation function. Why do we use it
+    - Explain activation function an it's importance in AI
+    - Meaning of activation function in AI. Why do we use it? 
+    - Explain activation function and it's necessity in AI
+    - Why do we need activation function. Also explain it's necessity in AI
+    - Importance of activation function in AI
+    - Put into words activation function and it's need
+    - What is the need of using an activation function? 
+ 
+- intent: faq-logistic/mle
+  examples: |
+    - Explain Maximum Likelihood Estimation
+    - Define Maximum Likelihood Estimation
+    - Describe Maximum Likelihood Estimation
+    - Clarify Maximum Likelihood Estimation
+    - Clear up Maximum Likelihood Estimation
+    - Describe in detail Maximum Likelihood Estimation
+    - Clearly explain Maximum Likelihood Explanation
+    - Define the Maximum Likelihood Estimation
+    - Purpose of Maximum Likelihood Estimation
+    - Describe briefly Maximum Likelihood Estimation
+    - Define Maximum Likelihood Estimation in AI
+    - Define Maximum Likelihood Estimation in logistic regression
+    - Tell me about Maximum Likelihood Estimation
+    - Give a detailed explanation of Maximum Likelihood Estimation
+    - Write about Maximum Likelihood Estimation
+    - Tell about Maximum Likelihood Estimation
+    - Completely define Maximum Likelihood Estimation
+    - Give explanation about Maximum Likelihood Estimation
+    - What is meant by Maximum Likelihood Estimation
+    - Maximum Likelihood Estimation meaning
+    - What does Maximum Likelihood Estimation mean
+    - Give details about Maximum Likelihood Estimation
+    - What does Maximum Likelihood Estimation mean in artificial intelligence
+    - Definition of Maximum Likelihood Estimation
+    - Give a well defined view of Maximum Likelihood Estimation
+    - Meaning of Maximum Likelihood Estimation in AI
+    - Meaning of Maximum Likelihood Estimation in logistic regression
+  
+- intent: faq-svm/about
+  examples: |
+    - define svm?
+    - explain support vector machine
+    - help me with svm
+    - what is support vector machine?
+    - define support vector machine
+    - can you tell me what is support vector machine
+    - what is svm?
+    - can you tell me about support vector machine
+    - please help me with support vector machine
+    - can you help me with support vector machine
+    - support vector machine
+    - explain in breif support vector machine
+    - give me details about support vector machine
+    - explain some points on support vector machine
+    - explain in detail support vector machine
+    - support vector machine definition
+    - support vector machine role in machine learning
+    - support vector machine is a ?
+    - defination of SVM
+    - details on SVM
+    - explain SVM
+    - explain in detail SVM
+    - meaning of SVM
+    - tell me about SVM
+    - can you help me with SVM
+    - can you tell me about SVM
+    - please help me with SVM
+    - explain in breif SVM
+    - give me details about SVM
+    - SVM role in machine learning
+    - meaning of support vector machine
+    - SVM in ai
+    - svm in machine learning
+    - svm in ml
+    - what is role of svm in machine learning
+    - define svm in machine learning
+    - define support vector machine in machine learning
+    - explain support vector machine in machine learning
+    - give me details about support vector machine
+    - explain svm in artificial intelligence 
+    - 
+- intent: faq-svm/hyperparameter
+  examples: |
+    - tune hyperparameter in svm
+    - hyperparameter in svm
+    - help me with hyperparameter of svm
+    - can u tell me how to tune hyperparameter in svm
+    - can you tell me how to tune hyperparameter in support vector machine?
+    - how to use hyperparameter in support vector machine
+    - explain how to use hyperparameter in support vector machine
+    - in support vector machine how to tune hyperparameter
+    - in support vector machine how to use hyperparameters
+    - in support vector machine explain how hyperparameter works
+    - in support vector machine explain how hyperparameter get tune
+    - help me in support vector machine how to tune hyperparameters
+    - please tell me how support vector machine use hyperparameters
+    - in support vector machine what is role of hyperparameter
+    - hyperparameter role in support vector machine
+    - what is support vector machine hyperparameter tuning
+    - expain in detail how to tune hyperparameter in support vector machine
+    - expain in detail how to tune hyperparameter in svm in machine learning
+    - give me details about support vector machine hyperparameter tuning
+    - support vector machine (svm) hyperparameter tuning
+    - how to use hyperparameter in support vector machine
+    - explain how to use hyperparameter in svm
+    - in svm how to tune hyperparameter
+    - in svm how to use hyperparameters
+    - in svm explain how hyperparameter works
+    - in svm explain how hyperparameter get tune
+    - help me in svm how to tune hyperparameters
+    - please tell me how svm use hyperparameters
+    - in svm what is role of hyperparameter
+    - hyperparameter role in svm in ai
+    - what is svm hyperparameter tuning in ml
+    
+- intent: faq-svm/hinge
+  examples: |
+    - define hinge loss
+    - what is hinge loss
+    - explain hinge loss
+    - please tell me what is hinge loss
+    - what is hinge loss in svm
+    - what is hinge loss in ml
+    - what is hinge loss in svm in machine learning
+    - hinge loss
+    - hinge loss in svm
+    - hinge loss in ml
+    - hinge loss in artificial intelligence
+    - hinge loss in support vector machine
+    - give me defination of hinge loss
+    - please tell me about hinge loss
+    - please tell me about what is hinge loss
+    - please tell me what is hinge loss in support vector machine
+    - please tell me what is hinge loss in machine learning
+    - what is hinge loss in support vector machine
+    - help me with hinge loss
+    - help me with the hinge loss in support vector machine
+    - meaning of hinge loss
+    - explain some points on hinge loss
+    - give me details about hinge loss
+    - can you tell me about hinge loss
+    - hinge loss
+    - explain in breif hinge loss
+    - in support vector machine what is role of hinge loss
+    - in svm how to use hinge loss
+    - hinge loss role in support vector machine
+
+- intent: faq-svm/polynomial 
+  examples: |
+    -   what is polynomial kernel
+    - define polynomial kernel
+    - explain polynomial kernel
+    - please tell me what is polynomial kernel
+    - what is polynomial kernel in svm
+    - what is polynomial kernel in svm in machine learning
+    - give me defination of polynomial kernel
+    - what is polynomial kernel in support vector machine
+    - help me with polynomial kernel
+    - help me with the polynomial kernel  in support vector machine
+    - meaning of polynomial kernel
+    - explain in breif polynomial kernel
+    - in support vector machine what is role of polynomial kernel
+    - in svm how to use polynomial kernel
+    - polynomial kernel in ml
+    - polynomial kernel in svm
+    - polynomial kernel in support vector machine
+    - please tell me what is polynomial kernel in support vector machine
+    - please tell me what is polynomial kernel in machine learning
+    - please tell me about what is polynomial kernel
+    - tell me about what is polynomial kernel
+    - please help me with polynomial kernel
+    - can you tell me about polynomial kernel
+    - give me details about polynomial kernel
+    - polynomial kernel
+    - explain how to use polynomial kernel
+
+- intent: faq-svm/regression
+  examples: |
+    - what is svm regression
+    - explain svm regression
+    - define svm regression
+    - please tell me what is svm regression
+    - give me defination of svm regression
+    - help me with svm regression
+    - meaning of svm regression
+    - explain in breif svm regression
+    - what is role of svm regression
+    - how to use svm regression
+    - please tell me about what is svm regression
+    - tell me about what is svm regression
+    - please help me with svm regression
+    - can you tell me about svm regression
+    - give me details about svm regression
+    - explain how to use regression in svm
+    - svm regression
+    - support vector machine regression
+    - what is support vector machine regression
+    - explain support vector machine regression
+    - define support vector machine regression
+    - please tell me what is support vector machine regression
+    - help me with support vector machine regression
+    - meaning of support vector machine regression
+    - explain in breif support vector machine regression
+    - what is role of support vector machine regression
+    - how to use support vector machine regression
+    - please tell me about what is support vector machine regression
+
+- intent: faq-svm/diff
+  examples: |
+    - difference between logistic regression and svm
+    - explain the difference between logistic regression and svm
+    - what is the difference between logistic regression and svm
+    - please tell me what is the difference between logistic regression and svm
+    - give me the difference between logistic regression and svm
+    - help me with the difference between logistic regression and svm
+    - explain in brief what's the difference in logistic regression and svm
+    - tell me about what is the difference between logistic regression and svm
+    - can you tell me the difference between logistic regression and svm
+    - give me details about difference in logistic regression and svm
+    - differentiate between logistic regression and svm
+    - dissimilarity between logistic regression and svm
+    - differentiation between logistic regression and svm
+    - contrast between logistic regression and svm
+    - dissimilarity in logistic regression and svm
+    - difference between logistic regression and support vector machine
+    - explain the difference between logistic regression and support vector machine
+    - what is the difference between logistic regression and support vector machine
+    - dissimilarity between logistic regression and support vector machine
+    - please tell me what is the difference between logistic regression and support vector machine
+    - contrast between logistic regression and support vector machine
+    - give me the difference between logistic regression and support vector machine
+    - help me with the difference between logistic regression and support vector machine
+    - explain in brief what's the difference in logistic regression and support vector machine
+    - tell me about what is the difference between logistic regression and support vector machine
+    - give me details about difference between logistic regression and support vector machine
+    - differentiate between logistic regression and support vector machine
+    - what is  logistic regression and svm
+    - what is  logistic regression and support vector machine
+
+- intent: faq-svm/hard_soft
+  examples: |
+    -   what is Hard Margin SVM and Soft Margin SVM
+    - explain the difference between Hard Margin SVM and Soft Margin SVM
+    - difference between Hard Margin SVM and Soft Margin SVM
+    - tell me about what is the difference between Hard Margin SVM and Soft Margin SVM
+    - give me the difference between Hard Margin SVM and Soft Margin SVM
+    - help me with the difference between Hard Margin SVM and Soft Margin SVM
+    - can you tell me the difference between Hard Margin SVM and Soft Margin SVM
+    - give me details about Hard Margin SVM and Soft Margin SVM
+    - explain in brief what's the difference in Hard Margin SVM and Soft Margin SVM
+    - dissimilarity between Hard Margin SVM and Soft Margin SVM
+    - differentiate between Hard Margin SVM and Soft Margin SVM
+    - contrast between Hard Margin SVM and Soft Margin SVM
+    - explain Hard Margin SVM and Soft Margin SVM
+    - please tell me what is Hard Margin SVM and Soft Margin SVM
+    - tell me about what is Hard Margin SVM and Soft Margin SVM
+    - please help me with Hard Margin SVM and Soft Margin SVM
+    - can you tell me about Hard Margin SVM and Soft Margin SVM
+    - give me details about Hard Margin SVM and Soft Margin SVM
+    - Hard Margin support vector machine and Soft Margin support vector machine
+    - explain Hard Margin SVM
+    - define Hard Margin SVM
+    - tell me about what is Hard Margin SVM
+    - explain Soft Margin SVM
+    - define Soft Margin SVM
+    - tell me about what is Soft Margin SVM
+    - Soft Margin SVM
+    - what is Hard Margin support vector machine and Soft Margin support vector machine
+    - explain the difference between Hard Margin support vector machine and Soft Margin support vector machine
+    - difference between Hard Margin support vector machine and Soft Margin support vector machine
+    - tell me about what is the difference between Hard Margin support vector machine and Soft Margin support vector machine
+    - give me the difference between Hard Margin support vector machine and Soft Margin support vector machine
+    - differentiate between Hard Margin support vector machine and Soft Margin support vector machine
+    - please tell me what is Hard Margin support vector machine and Soft Margin support vector machine
+    - can you tell me about Hard Margin support vector machine and Soft Margin support vector machine
+
+- intent: faq-svm/kernel
+  examples: |
+    -   what is kernel in svm
+    - define kernel in svm
+    - explain kernel in svm
+    - help me with the kernel in svm
+    - can you help me with kernel in svm
+    - can you tell me what is kernel in svm
+    - can you tell me about kernel in svm
+    - please help me with kernel in svm
+    - explain in breif kernel in svm
+    - give me details about kernel in svm
+    - explain in detail kernel in svm
+    - explain some points on kernel in svm
+    - kernel in svm definition
+    - what is role of kernel in svm
+    - kernel in ml
+    - kernel in machine learning
+    - kernels in svm
+    - kernels in support vector machine
+    - what is kernel in support vector machine
+    - explain kernel in support vector machine
+    - help me with the kernel in support vector machine
+    - can you help me with kernel in support vector machine
+    - please help me with kernel in support vector machine
+    - explain in breif kernel in support vector machine
+    - give me detail about kernels in support vector machine
+    - explain in detail kernel in support vector machine
+    - definition of kernel in support vector machine
+    - what is role of kernel in support vector machine
+    - usage of kernel in support vector machine
+    - why do we use kernel in support vector machine
+    - why do we need kernel in support vector machine
+    - use of kernel in support vector machine
+    - advantage of kernels in support vector machine
+    - how kernel is use in support vector machine
+    - how kernels is use in svm
+    - how kernel is use in svm in machine learning
+
+- intent: faq-svm/c
+  examples: |
+    - What is the role of C in SVM?
+    - how c is useful in svm
+    - what is the use of c in svm
+    - what is c in svm
+    - how c is used in svm
+    - role of c in svm
+    - why we use c in svm
+    - advantage of using c in svm
+    - how c in goona help us in svm
+    - uses of c in svm
+    - why do we use c in svm
+    - please help me with the role of C in SVM?
+    - how c is use in svm in machine learning
+    - how c is use in svm
+    - advantage of c in support vector machine
+    - can you help me with c in support vector machine
+    - please help me with kernel in support vector machine
+    - explain in breif role of c in support vector machine
+    - give me detail about role of c in support vector machine
+    - explain in detail role of c in support vector machine
+    - help me with the kernel in svm
+    - can you help me with role of c in svm
+    - can you tell me what is role of c in svm
+    - can you tell me about role of c in svm
+    - please help me with role of c in svm
+    - can you help me with role of c in support vector machine
+    - how c is useful in support vector machine
+    - what is the use of c in support vector machine
+    - what is c in support vector machine
+    - how c is used in support vector machine
+    - role of c in support vector machine
+    - why we use c in support vector machine
+    - advantage of using c in support vector machine
+    - how c in goona help us in support vector machine
+    - uses of c in support vector machine
+    - why do we use c in support vector machine
+
+- intent: faq-svm/large_margin
+  examples: |
+    - What is the intuition of a large margin classifier
+    - why we choose large margin classifier
+    - reason behind large margin classifier
+    - what is the reason of chossing large margin classifier
+    - what is the reason behind choosing large margin classifier
+    - intuition of large margin classifier
+    - how we get perception of using large margin classifier
+    - how we get perception of using large margin classifier in svm
+    - What is the intuition of a large margin classifier in svm
+    - What is the intuition of a large margin classifier in support vector machine
+    - why we choose large margin classifier in svm
+    - why we choose large margin classifier in support vector machine
+    - large margin classifier in support vector machine
+    - in support vector machine why we choose large margin classifier
+    - can you tell me what is role of large margin classifier
+    - how large margin classifier is useful
+    - advantage of using large margin classifier in support vector machine
+    - why do we use large margin classifier
+    - large margin classifier in goona help us in svm
+    - why do we need large margin classifier
+    - role of large margin classifier in svm
+    - please help me with large margin classifier in svm
+    - explain in breif role of large margin classifier
+    - why do we need large margin classifier in support vector machine
+    - why we feel to use large margin classifier in svm
+ 
+- intent: faq-linear/about
+  examples: |
+    - explain the term linear regression
+    - explain the term linear regression
+    - define linear regression algorithm in machine learning
+    - What do you understand by linear regression
+    - What is the concept of linear regression
+    - linear regression algorithm explaination
+    - definition of linear regression
+    - linear regression algorithm explaination in artificial intelligence-
+    - use of linear regression in machine learning
+    - explaination of linear regression algorithm
+    - what do you mean by linear regression algorithm
+    - tell me the definition of linear regression
+    - how can we define linear regression in AI
+    - what is the use of linear regression in machine learning
+    - state linear regression in machine learning
+    - tell me about linear regression algorithm
+    - explaination of linear regression in detail
+    - brief understanding of linear regression in machine learning
+    - detailed explaination of linear regression in AI
+    - advantage of using linear regression algorithm
+    - at what places we can apply linear regression
+    - where to use linear regression algorithm
+    - everything about linear regression algorithm
+    - how can we apply linear regression using python
+    - elaborate linear regression
+
+- intent: faq-linear/difference-LiR_LoR
+  examples: |
+    - how is linear regression different from logistic regression
+    - compare linear and logistic regression
+    - tell me the differences between linear and logistic regression in AI
+    - distinguish between linear regression and logistic regression
+    - how can you differentiate logistic regression from linear regression
+    - comparison of linear and logistic regression in ML
+    - differ linear regression from logistic regression
+    - different ways by which we can differentiate linear regression and logistic regression
+    - differentiate linear regression algorithm from logistic regression
+    - what are the factors that distinguish logistic regression from linear regression
+    - linear regression vs logistic regression
+    - detailed comparison of logistic over linear regression
+    - factors that distinguish linear from logistic regression
+    - explain the difference between linear regression and logistic regression
+    - in what ways linear and logistic regression are different
+    - different ways to distinguish linear and logistic regression
+    - it would be really helpful if you could tell me the difference between linear and logistic regression
+    - could you please differentiate between linear and logistic regression
+
+- intent: faq-linear/assumptions_Li
+  examples: |
+    - what are the assumptions we take in linear regression algorithm
+    - how many assumtions we take in linear regression
+    - tell me the assumptions of linear regression algorithm in ML
+    - assupmtions of linear regression algorithm
+    - describe the assumtions we take in linear regression
+    - explain the various assumptions of linear regression
+    - why we take assumptions in linear regression algorithm
+    - reason for using assumptions in linear regression
+    - various assumptions that we use in linear regression
+    - detailed explaination of all the assumptions in linear regression
+    - linear regression assumptions in AI
+    - help me with the assumtions of linear regression
+    - important assumptions we take in linear regression algorithm
+    - do you know the assumptions of linear regression
+
+- intent: faq-linear/normal_dist_Li
+  examples: |
+    - what are the assumptions we take in linear regression algorithm
+    - how many assumtions we take in linear regression
+    - tell me the assumptions of linear regression algorithm in ML
+    - assupmtions of linear regression algorithm
+    - describe the assumtions we take in linear regression
+    - explain the various assumptions of linear regression
+    - why we take assumptions in linear regression algorithm
+    - reason for using assumptions in linear regression
+    - various assumptions that we use in linear regression
+    - detailed explaination of all the assumptions in linear regression
+    - linear regression assumptions in AI
+    - help me with the assumtions of linear regression
+    - important assumptions we take in linear regression algorithm
+    - do you know the assumptions of linear regression
+    - why we use normal distribution in linear regression
+    - what kind of distribution we use in linear regression
+    - which curve is followed by linear regression algorithm
+    - linear regression follows which kind of distribution
+    - distribution followed by linear regression in ML
+    - what is the curve we use in linear regression algorithm
+    - explain the curve of linear regression model
+    - describe the distribution followed by linear regression model
+    - explain about linear regression curve
+    - can you help me to know about the distribution curve of linear regression
+    - please give information about the linear regression curve
+
+- intent: faq-linear/cost_func
+  examples: |
+    - define cost function
+    - what do you mean by cost function
+    - why do we use cost function
+    - where we can apply cost function
+    - use of cost function in ML algorithm
+    - explain cost function in AI
+    - state cost function
+    - purpose of using cost function in ML algorithms
+    - how to implement cost function
+    - elaborate cost function in detail
+    - complete understanding of cost function
+    - how can we apply cost function
+    - help me with cost function in machine learning
+
+- intent: faq-linear/gradient_descent
+  examples: |
+    - explain gradient descent algorithm
+    - where do we use gradient descent algorithm
+    - what is the purpose of gradient descent
+    - help me in understanding gradient descent algorithm
+    - why do we use gradient descent in ML
+    - reason to use gradient descent algorithm
+    - what is the purpose of using gradient descent algorrithm in AI
+    - how to use gradient descent algorithm
+    - explain in detail about the gradient detail algorithm
+    - gradient descent algorithm in machine learning
+    - describe about gradient descent
+    - what is the functioning of gradient descent algorithm
+    - concept of using gradient descent algorithm
+
+- intent: faq-linear/cost_func_type_Li
+  examples: |
+    - explain the cost function we use in linear regression model
+    - what is the cost function of linear regression
+    - describe cost function in linear regression model
+    - define the cost function of linear regression model
+    - could you please tell me about the cost function for linear regression
+    - what type of cost function is used in linear regression
+    - explain cost function used in linear regression
+    - can u help me with the cost function used in linear regression
+
+- intent: faq-linear/cost_func_derivative_Li
+  examples: |
+    - tell me the derivative of cost function in linear regression model
+    - how do we derive the cost function of linear regression model
+    - derivation of cost function in linear regression model
+    - what is the way to use cost function derivation of linear regression-
+    - in linear regression where do we use the derivation of cost function
+    - why there is need to derive cost function in linear regression
+    - how do we use the cost function derivation in linear regression
+    - ways by which we can derive the cost function of linear regression
+    - explain in detail how to derive linear regression cost function
+    - purpose of deriving cost function of linear regression
+
+- intent: faq-linear/noise_dist_Li
+  examples: |
+    - noise in linear regression
+    - tell me about the distribution of noise in linear regression
+    - what is the function of noise in linear regression
+    - what is the significance of noise in linear regression
+    - why do we use noise in linear regression
+    - is noise in linear regression follows normal distribution
+    - purpose of using noise in linear regression
+    - what is the advantage of using noise in linear regression
+    - how do we use noise in linear regression
+    - when do we use noise in linear regression
+    - what is noise
+    - what is error function in linear regression
+    - what do you mean by noise
+    - advantage of using error function in linear function
+    - how is the outcome of linear regression changes after using error function
+    - in what way we can use error function in linear regression
+    - where do we use noise in linear regression algorithm
+    - why do we use normal distribution in error function of linear regression
+
+- intent: faq-linear/ridge_lasso
+  examples: |
+    - explain ridge and lasso regression
+    - why do we use ridge and lasso regression in linear regression
+    - where do we use ridge and lasso regression
+    - what is the purpose of using ridge and lasso regression
+    - what is ridge regression
+    - tell me about lasso regression
+    - how we implement ridge and lasso regression in AI
+    - purpose of using ridge and lasso regression
+    - what are the uses of ridge and lasso regression
+    - why there is need to use ridge and lasso regression in linear regression
+    - elaborate about ridge and lasso regression in machine learning
+
+- intent: faq-decision/definition
+  examples: |
+    - explain decision tree algorithm
+    - under which category decisionTree falls
+    - decisioon trees are suitable for
+    - decisioon tree explaination
+    - in which problem do we use decision tree
+    - define categories of problems thart can be solved by decision tree
+    - define decision tree in machine learning
+    - meaning of decison tree
+    - what do you mean by of desision tree
+    - why do we need decison tree
+    - meaning of decison tree in AI
+    - what kind of problems can be solved using decision tree algorithm
+    - brief statement on decision tree
+    - state decision tree algorithm in machine learning
+    - help me in understanding decision tree algorithm
+    - describe decision tree
+    - illustrate the meaning of decision tree
+    - what is the concept of decision tree
+    - how can we define decision tree algorithm
+    - what do you understand by decision tree
+    - give explaination of decision tree algorithm
+    - how can we use decision tree algorithm
+    - how to explain decision tree algorithm
+    - discuss decision tree algorithm in ML
+    - do you know what decision tree is
+    - decision tree algorithm definition in detail
+    - help me in understanding decision tree algorithm
+
+- intent: faq-decision/types
+  examples: |
+    - what are the different types of decision tree
+    - explain the classification of decision tree
+    - decision trees are classified into 
+    - types of decision tree and their explaination
+    - meaning of decision tree types
+    - different types of decision tree algorithm
+    - what are the categories of decision tree
+    - define the types of decision tree in detail
+    - throw some light on decision tree classification
+    - decision tree types in detail
+    - classification of decision tree and their explaination
+    - what do you mean my decision tree classification
+    - describe the classification of decision tree
+    - what do you understand my decision tree types
+    - can you help me with the classification of decision tree types
+    - please tell me about the different types of decision tree algorithm in AI
+    - give me some points on decision tree types
+    - classify decision tree algorithm in machine learning
+    - help me in understanding the types of decision tree algorithm
+    - how is decision tree classified
+
+- intent: faq-decision/chaid
+  examples: |
+    - tell me what is CHAID in decision tree
+    - help me to understand CHAID decision tree
+    - what is the meaning of CHAID
+    - do you know what is CHAID in decision tree
+    - what is CHAID in decision tree
+    - explain the CHAID decision tree type
+    - describe CHAID in detail
+    - give some explaination on chaid decision tree
+    - meaning of chaid decision tree
+    - define CHAID decision tree type
+    - clarification on chaid decision tree
+    - CHAID decision tree
+    - what do you understand by chaid in decision tree
+    - what is the use of CHAID in decision tree
+    - why decision tree is classified into CHAID
+    - where to use chaid decision tree algorithm
+    - how to define CHAID decision tree
+    - illustrate CHAID decision tree in detail
+    - what is chaid decision tree algorithm
+
+- intent: faq-decision/cart
+  examples: |
+    - tell me what is CART in decision tree
+    - please explain about CART decision tree
+    - describe about CART decision tree
+    - what is cart decision tree
+    - throw some light on CART decision tree
+    - do you know what CART is
+    - explain the meaning of cart decision tree algorithm
+    - discuss about CART decision tree
+    - CART decision tree in machine learning
+    - what is the use of CART decision tree
+    - define cart decision tree
+    - how to define CART decision tree
+    - explain everything about CART decision tree
+    - what do you know about CART
+    - tell me everything about cart decision tree
+    - what is CART 
+    - details on cart decision tree
+    - everything about CART decision tree
+
+- intent: faq-decision/derivation
+  examples: |
+    - different algorithms to derive decision tree
+    - some popular algorithms to derive decision tree
+    - what are the algorithms that can be used to derive decision tree along with their attribute selection measures
+    - help me to know about the algorithms that can be used to derive decision tree with their attribute selection measures
+    - explain about the algorithms which can be applied to derive decision tree
+    - algorithms to derive decision tree
+    - tell me about some popular algorithms to derive decision tree
+    - decision tree can be derived from which algorithms
+    - from what algorithms we can derive decision tree with their attribute selection measures
+    - what are the various algorithms to derive decision tree
+    - please help me to know about the algorithms which can be used to derive decision tree
+    - algorithms that can be used to deive decision tree
+    - do you know what are the algorithms which can be used to derive decision tree
+    - help me in understanding about the algorithms that is used to derive decision tree along with their attribute selection measures
+    - decision tree derivation through various algorithms
+
+- intent: faq-new/tell-neural-network
+  examples: |
+    - tell me more details about neural networks
+    - what information can you provide me of neural networks
+    - what do you know about neural networks
+    - i want to know about neural networks in general
+    - help me in understanding neural networks
+    - tell me about neural networks
